@@ -1,0 +1,393 @@
+/* ============================================
+   REEL MATCH — design tokens
+   Palette: marquee cream, projector black, ticket red, brass gold
+   Type: Bebas Neue (display/marquee), Space Grotesk (body/UI)
+   Signature: ticket-stub movie cards with perforated edges
+   ============================================ */
+
+:root {
+  --color-bg: #181410;
+  --color-bg-soft: #211b15;
+  --color-cream: #f3e9d8;
+  --color-cream-dim: #cdc0a8;
+  --color-red: #c8432f;
+  --color-red-bright: #e2553d;
+  --color-gold: #d8a23d;
+  --color-stub-bg: #f6efe1;
+  --color-stub-ink: #2a2118;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+  --radius: 6px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-cream);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* subtle film-grain texture overlay */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ---------- header ---------- */
+.site-header {
+  border-bottom: 2px solid #382c1f;
+  background: linear-gradient(180deg, #1d1712, #181410);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 22px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.brand-mark--accent { color: var(--color-red-bright); }
+
+.tabs { display: flex; gap: 8px; }
+
+.tab-btn {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  background: none;
+  border: none;
+  color: var(--color-cream-dim);
+  padding: 10px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tab-btn:hover { color: var(--color-cream); }
+
+.tab-btn.active {
+  background: var(--color-red);
+  color: #fff;
+}
+
+.fav-count {
+  display: inline-block;
+  background: rgba(0,0,0,0.25);
+  border-radius: 999px;
+  padding: 1px 7px;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+/* ---------- layout / view switching ---------- */
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 32px 80px;
+}
+
+.view { display: none; }
+.view.active { display: block; }
+
+/* ---------- hero ---------- */
+.hero { padding: 64px 0 36px; }
+.hero--compact { padding: 48px 0 28px; }
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  color: var(--color-gold);
+  margin: 0 0 14px;
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 1.05;
+  margin: 0;
+  color: var(--color-cream);
+  letter-spacing: 0.5px;
+}
+
+/* ---------- filter strip ---------- */
+.filter-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 24px;
+  background: var(--color-bg-soft);
+  border: 1px solid #392c1e;
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  margin-bottom: 36px;
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 160px;
+}
+
+.filter-field label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: var(--color-cream-dim);
+  text-transform: uppercase;
+}
+
+.filter-field select,
+.filter-field input[type="range"] {
+  font-family: var(--font-body);
+}
+
+select {
+  background: var(--color-bg);
+  color: var(--color-cream);
+  border: 1px solid #4a3a28;
+  border-radius: 4px;
+  padding: 9px 12px;
+  font-size: 14px;
+  min-width: 160px;
+}
+
+input[type="range"] {
+  width: 180px;
+  accent-color: var(--color-red);
+}
+
+.ticket-btn {
+  font-family: var(--font-display);
+  font-size: 17px;
+  letter-spacing: 1px;
+  background: var(--color-red);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 13px 28px;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.1s;
+  margin-left: auto;
+}
+
+.ticket-btn:hover { background: var(--color-red-bright); }
+.ticket-btn:active { transform: scale(0.98); }
+
+/* ---------- results meta ---------- */
+.results-meta {
+  font-size: 13px;
+  color: var(--color-cream-dim);
+  margin-bottom: 18px;
+  min-height: 18px;
+}
+
+/* ---------- movie grid & ticket-stub cards ---------- */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.stub {
+  background: var(--color-stub-bg);
+  color: var(--color-stub-ink);
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  transition: transform 0.15s ease;
+}
+
+.stub:hover { transform: translateY(-3px); }
+
+.stub-main {
+  padding: 20px 20px 16px;
+  flex: 1;
+}
+
+.stub-genre {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-red);
+  margin-bottom: 6px;
+  display: block;
+}
+
+.stub-title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  line-height: 1.1;
+  margin: 0 0 8px;
+  letter-spacing: 0.3px;
+}
+
+.stub-meta {
+  font-size: 13px;
+  color: #6b5d49;
+  margin: 0 0 14px;
+}
+
+.stub-score-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.stub-rating {
+  font-family: var(--font-display);
+  font-size: 20px;
+  color: var(--color-stub-ink);
+}
+
+.stub-rating-label {
+  font-size: 11px;
+  color: #8a7a62;
+  letter-spacing: 0.5px;
+}
+
+.match-bar {
+  height: 5px;
+  border-radius: 4px;
+  background: #e3d8c4;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.match-bar-fill {
+  height: 100%;
+  background: var(--color-red);
+}
+
+/* perforated tear line */
+.stub-perf {
+  position: relative;
+  height: 0;
+  border-top: 2px dashed #d8cab0;
+  margin: 0 0;
+}
+.stub-perf::before, .stub-perf::after {
+  content: "";
+  position: absolute;
+  width: 16px; height: 16px;
+  background: var(--color-bg);
+  border-radius: 50%;
+  top: -9px;
+}
+.stub-perf::before { left: -8px; }
+.stub-perf::after { right: -8px; }
+
+.stub-stub-section {
+  padding: 14px 20px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stub-admit {
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  color: #8a7a62;
+}
+
+.save-btn {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  background: none;
+  border: 1.5px solid var(--color-stub-ink);
+  color: var(--color-stub-ink);
+  padding: 7px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.save-btn:hover {
+  background: var(--color-stub-ink);
+  color: var(--color-stub-bg);
+}
+
+.save-btn.saved {
+  background: var(--color-red);
+  border-color: var(--color-red);
+  color: #fff;
+}
+
+.remove-btn {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  background: none;
+  border: 1.5px solid var(--color-red);
+  color: var(--color-red);
+  padding: 7px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.remove-btn:hover { background: var(--color-red); color: #fff; }
+
+/* ---------- empty state ---------- */
+.empty-state {
+  color: var(--color-cream-dim);
+  font-size: 15px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* ---------- decorative film perforation footer ---------- */
+.perforation--top {
+  height: 14px;
+  background-image: radial-gradient(circle, var(--color-bg) 4px, transparent 4.5px);
+  background-size: 24px 14px;
+  background-color: #382c1f;
+  margin-top: 40px;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 640px) {
+  .header-inner { padding: 18px 20px; flex-direction: column; gap: 14px; }
+  main { padding: 0 20px 60px; }
+  .filter-strip { flex-direction: column; align-items: stretch; }
+  .ticket-btn { margin-left: 0; width: 100%; }
+  input[type="range"] { width: 100%; }
+}
+
+/* ---------- focus visibility ---------- */
+button:focus-visible, select:focus-visible, input:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* ---------- reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .stub { transition: none; }
+}

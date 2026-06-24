@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reel Match — Movie Recommendation System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="grain-overlay"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-mark">MOVIE</span><span class="brand-mark brand-mark--accent">MATCH</span>
+    </div>
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="discover">Discover</button>
+      <button class="tab-btn" data-tab="favorites">My Favorites <span id="fav-count" class="fav-count">0</span></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="discover" class="view active">
+
+    <div class="hero">
+      <p class="eyebrow">NOW SCREENING — PICK YOUR NEXT WATCH</p>
+      <h1>Tell us your mood.<br>We'll cue the projector.</h1>
+    </div>
+
+    <div class="filter-strip">
+      <div class="filter-field">
+        <label for="genre-select">Genre</label>
+        <select id="genre-select">
+          <option value="Any">Any genre</option>
+        </select>
+      </div>
+
+      <div class="filter-field">
+        <label for="rating-slider">Min. rating: <span id="rating-value">7.0</span></label>
+        <input type="range" id="rating-slider" min="0" max="9.5" step="0.1" value="7.0">
+      </div>
+
+      <div class="filter-field">
+        <label for="decade-select">Decade</label>
+        <select id="decade-select">
+          <option value="Any">Any decade</option>
+          <option value="1970">1970s</option>
+          <option value="1980">1980s</option>
+          <option value="1990">1990s</option>
+          <option value="2000">2000s</option>
+          <option value="2010">2010s</option>
+          <option value="2020">2020s</option>
+        </select>
+      </div>
+
+      <button id="recommend-btn" class="ticket-btn">
+        <span>Get Recommendations</span>
+      </button>
+    </div>
+
+    <div id="results-meta" class="results-meta"></div>
+    <div id="results-grid" class="movie-grid"></div>
+    <p id="empty-state" class="empty-state" style="display:none;">No film matches that combination yet — try loosening the rating or decade.</p>
+
+  </section>
+
+  <section id="favorites" class="view">
+    <div class="hero hero--compact">
+      <p class="eyebrow">YOUR REEL</p>
+      <h1>Saved for later.</h1>
+    </div>
+    <div id="favorites-grid" class="movie-grid"></div>
+    <p id="favorites-empty" class="empty-state">Nothing saved yet. Stub a ticket from Discover to add it here.</p>
+  </section>
+
+</main>
+
+<div class="perforation perforation--top"></div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
