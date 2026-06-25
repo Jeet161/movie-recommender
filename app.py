@@ -45,7 +45,7 @@ def api_recommend():
         "decade": data.get("decade", "Any"),
     }
 
-    results = recommender.recommend_movies(preferences, top_n=12)
+    results = recommender.recommend_movies(preferences, top_n=None)
     return jsonify(results)
 
 
@@ -73,4 +73,4 @@ def api_remove_favorite(movie_id):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=False, port=5000)

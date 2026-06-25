@@ -70,11 +70,11 @@ def score_movie(movie, preferences):
     return round(score, 2)
 
 
-def recommend_movies(preferences, top_n=10):
+def recommend_movies(preferences, top_n=None):
     """
     Filter and rank movies based on user preferences dict.
     Returns a list of movie dicts (with an added 'score' key),
-    sorted by score descending.
+    sorted by score descending. If top_n is None, returns all matches.
     """
     movies = load_movies()
     results = []  # list of dicts

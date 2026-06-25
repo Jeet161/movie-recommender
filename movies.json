@@ -1,57 +1,5042 @@
 [
-  {"id": 1, "title": "The Shawshank Redemption", "genre": "Drama", "year": 1994, "rating": 9.3, "director": "Frank Darabont"},
-  {"id": 2, "title": "The Godfather", "genre": "Crime", "year": 1972, "rating": 9.2, "director": "Francis Ford Coppola"},
-  {"id": 3, "title": "The Dark Knight", "genre": "Action", "year": 2008, "rating": 9.0, "director": "Christopher Nolan"},
-  {"id": 4, "title": "Pulp Fiction", "genre": "Crime", "year": 1994, "rating": 8.9, "director": "Quentin Tarantino"},
-  {"id": 5, "title": "Forrest Gump", "genre": "Drama", "year": 1994, "rating": 8.8, "director": "Robert Zemeckis"},
-  {"id": 6, "title": "Inception", "genre": "Sci-Fi", "year": 2010, "rating": 8.8, "director": "Christopher Nolan"},
-  {"id": 7, "title": "The Matrix", "genre": "Sci-Fi", "year": 1999, "rating": 8.7, "director": "Lana Wachowski"},
-  {"id": 8, "title": "Goodfellas", "genre": "Crime", "year": 1990, "rating": 8.7, "director": "Martin Scorsese"},
-  {"id": 9, "title": "Interstellar", "genre": "Sci-Fi", "year": 2014, "rating": 8.6, "director": "Christopher Nolan"},
-  {"id": 10, "title": "The Lion King", "genre": "Animation", "year": 1994, "rating": 8.5, "director": "Roger Allers"},
-  {"id": 11, "title": "Gladiator", "genre": "Action", "year": 2000, "rating": 8.5, "director": "Ridley Scott"},
-  {"id": 12, "title": "Titanic", "genre": "Romance", "year": 1997, "rating": 7.9, "director": "James Cameron"},
-  {"id": 13, "title": "Avatar", "genre": "Sci-Fi", "year": 2009, "rating": 7.9, "director": "James Cameron"},
-  {"id": 14, "title": "The Avengers", "genre": "Action", "year": 2012, "rating": 8.0, "director": "Joss Whedon"},
-  {"id": 15, "title": "Toy Story", "genre": "Animation", "year": 1995, "rating": 8.3, "director": "John Lasseter"},
-  {"id": 16, "title": "Finding Nemo", "genre": "Animation", "year": 2003, "rating": 8.1, "director": "Andrew Stanton"},
-  {"id": 17, "title": "Shrek", "genre": "Animation", "year": 2001, "rating": 7.9, "director": "Andrew Adamson"},
-  {"id": 18, "title": "The Hangover", "genre": "Comedy", "year": 2009, "rating": 7.7, "director": "Todd Phillips"},
-  {"id": 19, "title": "Superbad", "genre": "Comedy", "year": 2007, "rating": 7.6, "director": "Greg Mottola"},
-  {"id": 20, "title": "Step Brothers", "genre": "Comedy", "year": 2008, "rating": 6.9, "director": "Adam McKay"},
-  {"id": 21, "title": "La La Land", "genre": "Romance", "year": 2016, "rating": 8.0, "director": "Damien Chazelle"},
-  {"id": 22, "title": "The Notebook", "genre": "Romance", "year": 2004, "rating": 7.8, "director": "Nick Cassavetes"},
-  {"id": 23, "title": "Pride and Prejudice", "genre": "Romance", "year": 2005, "rating": 7.8, "director": "Joe Wright"},
-  {"id": 24, "title": "The Conjuring", "genre": "Horror", "year": 2013, "rating": 7.5, "director": "James Wan"},
-  {"id": 25, "title": "Get Out", "genre": "Horror", "year": 2017, "rating": 7.7, "director": "Jordan Peele"},
-  {"id": 26, "title": "A Quiet Place", "genre": "Horror", "year": 2018, "rating": 7.5, "director": "John Krasinski"},
-  {"id": 27, "title": "Hereditary", "genre": "Horror", "year": 2018, "rating": 7.3, "director": "Ari Aster"},
-  {"id": 28, "title": "John Wick", "genre": "Action", "year": 2014, "rating": 7.4, "director": "Chad Stahelski"},
-  {"id": 29, "title": "Mad Max: Fury Road", "genre": "Action", "year": 2015, "rating": 8.1, "director": "George Miller"},
-  {"id": 30, "title": "Die Hard", "genre": "Action", "year": 1988, "rating": 8.2, "director": "John McTiernan"},
-  {"id": 31, "title": "Se7en", "genre": "Crime", "year": 1995, "rating": 8.6, "director": "David Fincher"},
-  {"id": 32, "title": "The Departed", "genre": "Crime", "year": 2006, "rating": 8.5, "director": "Martin Scorsese"},
-  {"id": 33, "title": "No Country for Old Men", "genre": "Crime", "year": 2007, "rating": 8.1, "director": "Joel Coen"},
-  {"id": 34, "title": "Whiplash", "genre": "Drama", "year": 2014, "rating": 8.5, "director": "Damien Chazelle"},
-  {"id": 35, "title": "A Beautiful Mind", "genre": "Drama", "year": 2001, "rating": 8.2, "director": "Ron Howard"},
-  {"id": 36, "title": "Good Will Hunting", "genre": "Drama", "year": 1997, "rating": 8.3, "director": "Gus Van Sant"},
-  {"id": 37, "title": "Blade Runner 2049", "genre": "Sci-Fi", "year": 2017, "rating": 8.0, "director": "Denis Villeneuve"},
-  {"id": 38, "title": "Arrival", "genre": "Sci-Fi", "year": 2016, "rating": 7.9, "director": "Denis Villeneuve"},
-  {"id": 39, "title": "Dune", "genre": "Sci-Fi", "year": 2021, "rating": 8.0, "director": "Denis Villeneuve"},
-  {"id": 40, "title": "Spirited Away", "genre": "Animation", "year": 2001, "rating": 8.6, "director": "Hayao Miyazaki"},
-  {"id": 41, "title": "Coco", "genre": "Animation", "year": 2017, "rating": 8.4, "director": "Lee Unkrich"},
-  {"id": 42, "title": "Up", "genre": "Animation", "year": 2009, "rating": 8.3, "director": "Pete Docter"},
-  {"id": 43, "title": "The Grand Budapest Hotel", "genre": "Comedy", "year": 2014, "rating": 8.1, "director": "Wes Anderson"},
-  {"id": 44, "title": "Knives Out", "genre": "Comedy", "year": 2019, "rating": 7.9, "director": "Rian Johnson"},
-  {"id": 45, "title": "Jojo Rabbit", "genre": "Comedy", "year": 2019, "rating": 7.9, "director": "Taika Waititi"},
-  {"id": 46, "title": "Her", "genre": "Romance", "year": 2013, "rating": 8.0, "director": "Spike Jonze"},
-  {"id": 47, "title": "Eternal Sunshine of the Spotless Mind", "genre": "Romance", "year": 2004, "rating": 8.3, "director": "Michel Gondry"},
-  {"id": 48, "title": "About Time", "genre": "Romance", "year": 2013, "rating": 7.8, "director": "Richard Curtis"},
-  {"id": 49, "title": "It", "genre": "Horror", "year": 2017, "rating": 7.3, "director": "Andy Muschietti"},
-  {"id": 50, "title": "The Exorcist", "genre": "Horror", "year": 1973, "rating": 8.0, "director": "William Friedkin"},
-  {"id": 51, "title": "Parasite", "genre": "Drama", "year": 2019, "rating": 8.5, "director": "Bong Joon Ho"},
-  {"id": 52, "title": "1917", "genre": "Drama", "year": 2019, "rating": 7.8, "director": "Sam Mendes"},
-  {"id": 53, "title": "Joker", "genre": "Drama", "year": 2019, "rating": 8.4, "director": "Todd Phillips"},
-  {"id": 54, "title": "Top Gun: Maverick", "genre": "Action", "year": 2022, "rating": 8.3, "director": "Joseph Kosinski"},
-  {"id": 55, "title": "Everything Everywhere All at Once", "genre": "Sci-Fi", "year": 2022, "rating": 7.8, "director": "Daniel Kwan"}
+  {
+    "id": 1,
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "year": 1994,
+    "rating": 9.3,
+    "director": "Frank Darabont"
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "genre": "Crime",
+    "year": 1972,
+    "rating": 9.2,
+    "director": "Francis Ford Coppola"
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "year": 2008,
+    "rating": 9.0,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 4,
+    "title": "Pulp Fiction",
+    "genre": "Crime",
+    "year": 1994,
+    "rating": 8.9,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 5,
+    "title": "Forrest Gump",
+    "genre": "Drama",
+    "year": 1994,
+    "rating": 8.8,
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 6,
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "year": 2010,
+    "rating": 8.8,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 7,
+    "title": "The Matrix",
+    "genre": "Sci-Fi",
+    "year": 1999,
+    "rating": 8.7,
+    "director": "Lana Wachowski"
+  },
+  {
+    "id": 8,
+    "title": "Goodfellas",
+    "genre": "Crime",
+    "year": 1990,
+    "rating": 8.7,
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 9,
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "year": 2014,
+    "rating": 8.6,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 10,
+    "title": "The Lion King",
+    "genre": "Animation",
+    "year": 1994,
+    "rating": 8.5,
+    "director": "Roger Allers"
+  },
+  {
+    "id": 11,
+    "title": "Gladiator",
+    "genre": "Action",
+    "year": 2000,
+    "rating": 8.5,
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 12,
+    "title": "Titanic",
+    "genre": "Romance",
+    "year": 1997,
+    "rating": 7.9,
+    "director": "James Cameron"
+  },
+  {
+    "id": 13,
+    "title": "Avatar",
+    "genre": "Sci-Fi",
+    "year": 2009,
+    "rating": 7.9,
+    "director": "James Cameron"
+  },
+  {
+    "id": 14,
+    "title": "The Avengers",
+    "genre": "Action",
+    "year": 2012,
+    "rating": 8.0,
+    "director": "Joss Whedon"
+  },
+  {
+    "id": 15,
+    "title": "Toy Story",
+    "genre": "Animation",
+    "year": 1995,
+    "rating": 8.3,
+    "director": "John Lasseter"
+  },
+  {
+    "id": 16,
+    "title": "Finding Nemo",
+    "genre": "Animation",
+    "year": 2003,
+    "rating": 8.1,
+    "director": "Andrew Stanton"
+  },
+  {
+    "id": 17,
+    "title": "Shrek",
+    "genre": "Animation",
+    "year": 2001,
+    "rating": 7.9,
+    "director": "Andrew Adamson"
+  },
+  {
+    "id": 18,
+    "title": "The Hangover",
+    "genre": "Comedy",
+    "year": 2009,
+    "rating": 7.7,
+    "director": "Todd Phillips"
+  },
+  {
+    "id": 19,
+    "title": "Superbad",
+    "genre": "Comedy",
+    "year": 2007,
+    "rating": 7.6,
+    "director": "Greg Mottola"
+  },
+  {
+    "id": 20,
+    "title": "Step Brothers",
+    "genre": "Comedy",
+    "year": 2008,
+    "rating": 6.9,
+    "director": "Adam McKay"
+  },
+  {
+    "id": 21,
+    "title": "La La Land",
+    "genre": "Romance",
+    "year": 2016,
+    "rating": 8.0,
+    "director": "Damien Chazelle"
+  },
+  {
+    "id": 22,
+    "title": "The Notebook",
+    "genre": "Romance",
+    "year": 2004,
+    "rating": 7.8,
+    "director": "Nick Cassavetes"
+  },
+  {
+    "id": 23,
+    "title": "Pride and Prejudice",
+    "genre": "Romance",
+    "year": 2005,
+    "rating": 7.8,
+    "director": "Joe Wright"
+  },
+  {
+    "id": 24,
+    "title": "The Conjuring",
+    "genre": "Horror",
+    "year": 2013,
+    "rating": 7.5,
+    "director": "James Wan"
+  },
+  {
+    "id": 25,
+    "title": "Get Out",
+    "genre": "Horror",
+    "year": 2017,
+    "rating": 7.7,
+    "director": "Jordan Peele"
+  },
+  {
+    "id": 26,
+    "title": "A Quiet Place",
+    "genre": "Horror",
+    "year": 2018,
+    "rating": 7.5,
+    "director": "John Krasinski"
+  },
+  {
+    "id": 27,
+    "title": "Hereditary",
+    "genre": "Horror",
+    "year": 2018,
+    "rating": 7.3,
+    "director": "Ari Aster"
+  },
+  {
+    "id": 28,
+    "title": "John Wick",
+    "genre": "Action",
+    "year": 2014,
+    "rating": 7.4,
+    "director": "Chad Stahelski"
+  },
+  {
+    "id": 29,
+    "title": "Mad Max: Fury Road",
+    "genre": "Action",
+    "year": 2015,
+    "rating": 8.1,
+    "director": "George Miller"
+  },
+  {
+    "id": 30,
+    "title": "Die Hard",
+    "genre": "Action",
+    "year": 1988,
+    "rating": 8.2,
+    "director": "John McTiernan"
+  },
+  {
+    "id": 31,
+    "title": "Se7en",
+    "genre": "Crime",
+    "year": 1995,
+    "rating": 8.6,
+    "director": "David Fincher"
+  },
+  {
+    "id": 32,
+    "title": "The Departed",
+    "genre": "Crime",
+    "year": 2006,
+    "rating": 8.5,
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 33,
+    "title": "No Country for Old Men",
+    "genre": "Crime",
+    "year": 2007,
+    "rating": 8.1,
+    "director": "Joel Coen"
+  },
+  {
+    "id": 34,
+    "title": "Whiplash",
+    "genre": "Drama",
+    "year": 2014,
+    "rating": 8.5,
+    "director": "Damien Chazelle"
+  },
+  {
+    "id": 35,
+    "title": "A Beautiful Mind",
+    "genre": "Drama",
+    "year": 2001,
+    "rating": 8.2,
+    "director": "Ron Howard"
+  },
+  {
+    "id": 36,
+    "title": "Good Will Hunting",
+    "genre": "Drama",
+    "year": 1997,
+    "rating": 8.3,
+    "director": "Gus Van Sant"
+  },
+  {
+    "id": 37,
+    "title": "Blade Runner 2049",
+    "genre": "Sci-Fi",
+    "year": 2017,
+    "rating": 8.0,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 38,
+    "title": "Arrival",
+    "genre": "Sci-Fi",
+    "year": 2016,
+    "rating": 7.9,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 39,
+    "title": "Dune",
+    "genre": "Sci-Fi",
+    "year": 2021,
+    "rating": 8.0,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 40,
+    "title": "Spirited Away",
+    "genre": "Animation",
+    "year": 2001,
+    "rating": 8.6,
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 41,
+    "title": "Coco",
+    "genre": "Animation",
+    "year": 2017,
+    "rating": 8.4,
+    "director": "Lee Unkrich"
+  },
+  {
+    "id": 42,
+    "title": "Up",
+    "genre": "Animation",
+    "year": 2009,
+    "rating": 8.3,
+    "director": "Pete Docter"
+  },
+  {
+    "id": 43,
+    "title": "The Grand Budapest Hotel",
+    "genre": "Comedy",
+    "year": 2014,
+    "rating": 8.1,
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 44,
+    "title": "Knives Out",
+    "genre": "Comedy",
+    "year": 2019,
+    "rating": 7.9,
+    "director": "Rian Johnson"
+  },
+  {
+    "id": 45,
+    "title": "Jojo Rabbit",
+    "genre": "Comedy",
+    "year": 2019,
+    "rating": 7.9,
+    "director": "Taika Waititi"
+  },
+  {
+    "id": 46,
+    "title": "Her",
+    "genre": "Romance",
+    "year": 2013,
+    "rating": 8.0,
+    "director": "Spike Jonze"
+  },
+  {
+    "id": 47,
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "genre": "Romance",
+    "year": 2004,
+    "rating": 8.3,
+    "director": "Michel Gondry"
+  },
+  {
+    "id": 48,
+    "title": "About Time",
+    "genre": "Romance",
+    "year": 2013,
+    "rating": 7.8,
+    "director": "Richard Curtis"
+  },
+  {
+    "id": 49,
+    "title": "It",
+    "genre": "Horror",
+    "year": 2017,
+    "rating": 7.3,
+    "director": "Andy Muschietti"
+  },
+  {
+    "id": 50,
+    "title": "The Exorcist",
+    "genre": "Horror",
+    "year": 1973,
+    "rating": 8.0,
+    "director": "William Friedkin"
+  },
+  {
+    "id": 51,
+    "title": "Parasite",
+    "genre": "Drama",
+    "year": 2019,
+    "rating": 8.5,
+    "director": "Bong Joon Ho"
+  },
+  {
+    "id": 52,
+    "title": "1917",
+    "genre": "Drama",
+    "year": 2019,
+    "rating": 7.8,
+    "director": "Sam Mendes"
+  },
+  {
+    "id": 53,
+    "title": "Joker",
+    "genre": "Drama",
+    "year": 2019,
+    "rating": 8.4,
+    "director": "Todd Phillips"
+  },
+  {
+    "id": 54,
+    "title": "Top Gun: Maverick",
+    "genre": "Action",
+    "year": 2022,
+    "rating": 8.3,
+    "director": "Joseph Kosinski"
+  },
+  {
+    "id": 55,
+    "title": "Everything Everywhere All at Once",
+    "genre": "Sci-Fi",
+    "year": 2022,
+    "rating": 7.8,
+    "director": "Daniel Kwan"
+  },
+  {
+    "id": 56,
+    "title": "Fight Club",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 8.8,
+    "director": "David Fincher"
+  },
+  {
+    "id": 57,
+    "title": "Schindler's List",
+    "genre": "Drama",
+    "year": 1993,
+    "rating": 9.0,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 58,
+    "title": "The Silence of the Lambs",
+    "genre": "Crime",
+    "year": 1991,
+    "rating": 8.6,
+    "director": "Jonathan Demme"
+  },
+  {
+    "id": 59,
+    "title": "Heat",
+    "genre": "Crime",
+    "year": 1995,
+    "rating": 8.2,
+    "director": "Michael Mann"
+  },
+  {
+    "id": 60,
+    "title": "American Gangster",
+    "genre": "Crime",
+    "year": 2007,
+    "rating": 7.8,
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 61,
+    "title": "Saving Private Ryan",
+    "genre": "Drama",
+    "year": 1998,
+    "rating": 8.6,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 62,
+    "title": "The Pianist",
+    "genre": "Drama",
+    "year": 2002,
+    "rating": 8.5,
+    "director": "Roman Polanski"
+  },
+  {
+    "id": 63,
+    "title": "Logan",
+    "genre": "Action",
+    "year": 2017,
+    "rating": 8.1,
+    "director": "James Mangold"
+  },
+  {
+    "id": 64,
+    "title": "The Bourne Identity",
+    "genre": "Action",
+    "year": 2002,
+    "rating": 7.9,
+    "director": "Doug Liman"
+  },
+  {
+    "id": 65,
+    "title": "Skyfall",
+    "genre": "Action",
+    "year": 2012,
+    "rating": 7.8,
+    "director": "Sam Mendes"
+  },
+  {
+    "id": 66,
+    "title": "Edge of Tomorrow",
+    "genre": "Sci-Fi",
+    "year": 2014,
+    "rating": 7.9,
+    "director": "Doug Liman"
+  },
+  {
+    "id": 67,
+    "title": "Ex Machina",
+    "genre": "Sci-Fi",
+    "year": 2014,
+    "rating": 7.7,
+    "director": "Alex Garland"
+  },
+  {
+    "id": 68,
+    "title": "District 9",
+    "genre": "Sci-Fi",
+    "year": 2009,
+    "rating": 7.9,
+    "director": "Neill Blomkamp"
+  },
+  {
+    "id": 69,
+    "title": "Ratatouille",
+    "genre": "Animation",
+    "year": 2007,
+    "rating": 8.1,
+    "director": "Brad Bird"
+  },
+  {
+    "id": 70,
+    "title": "WALL-E",
+    "genre": "Animation",
+    "year": 2008,
+    "rating": 8.4,
+    "director": "Andrew Stanton"
+  },
+  {
+    "id": 71,
+    "title": "Inside Out",
+    "genre": "Animation",
+    "year": 2015,
+    "rating": 8.1,
+    "director": "Pete Docter"
+  },
+  {
+    "id": 72,
+    "title": "How to Train Your Dragon",
+    "genre": "Animation",
+    "year": 2010,
+    "rating": 8.1,
+    "director": "Dean DeBlois"
+  },
+  {
+    "id": 73,
+    "title": "Zootopia",
+    "genre": "Animation",
+    "year": 2016,
+    "rating": 8.0,
+    "director": "Byron Howard"
+  },
+  {
+    "id": 74,
+    "title": "The Big Sick",
+    "genre": "Comedy",
+    "year": 2017,
+    "rating": 7.5,
+    "director": "Michael Showalter"
+  },
+  {
+    "id": 75,
+    "title": "Booksmart",
+    "genre": "Comedy",
+    "year": 2019,
+    "rating": 7.1,
+    "director": "Olivia Wilde"
+  },
+  {
+    "id": 76,
+    "title": "Game Night",
+    "genre": "Comedy",
+    "year": 2018,
+    "rating": 6.9,
+    "director": "John Francis Daley"
+  },
+  {
+    "id": 77,
+    "title": "Crazy Rich Asians",
+    "genre": "Romance",
+    "year": 2018,
+    "rating": 6.9,
+    "director": "Jon M. Chu"
+  },
+  {
+    "id": 78,
+    "title": "Silver Linings Playbook",
+    "genre": "Romance",
+    "year": 2012,
+    "rating": 7.7,
+    "director": "David O. Russell"
+  },
+  {
+    "id": 79,
+    "title": "500 Days of Summer",
+    "genre": "Romance",
+    "year": 2009,
+    "rating": 7.7,
+    "director": "Marc Webb"
+  },
+  {
+    "id": 80,
+    "title": "Midsommar",
+    "genre": "Horror",
+    "year": 2019,
+    "rating": 7.1,
+    "director": "Ari Aster"
+  },
+  {
+    "id": 81,
+    "title": "The Babadook",
+    "genre": "Horror",
+    "year": 2014,
+    "rating": 6.8,
+    "director": "Jennifer Kent"
+  },
+  {
+    "id": 82,
+    "title": "Talk to Me",
+    "genre": "Horror",
+    "year": 2023,
+    "rating": 7.1,
+    "director": "Danny Philippou"
+  },
+  {
+    "id": 83,
+    "title": "Oppenheimer",
+    "genre": "Drama",
+    "year": 2023,
+    "rating": 8.4,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 84,
+    "title": "Poor Things",
+    "genre": "Comedy",
+    "year": 2023,
+    "rating": 7.9,
+    "director": "Yorgos Lanthimos"
+  },
+  {
+    "id": 85,
+    "title": "Dune: Part Two",
+    "genre": "Sci-Fi",
+    "year": 2024,
+    "rating": 8.5,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 86,
+    "title": "Gone Girl",
+    "genre": "Thriller",
+    "year": 2014,
+    "rating": 8.1,
+    "director": "David Fincher"
+  },
+  {
+    "id": 87,
+    "title": "Shutter Island",
+    "genre": "Thriller",
+    "year": 2010,
+    "rating": 8.2,
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 88,
+    "title": "Prisoners",
+    "genre": "Thriller",
+    "year": 2013,
+    "rating": 8.1,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 89,
+    "title": "Zodiac",
+    "genre": "Thriller",
+    "year": 2007,
+    "rating": 7.7,
+    "director": "David Fincher"
+  },
+  {
+    "id": 90,
+    "title": "The Girl with the Dragon Tattoo",
+    "genre": "Thriller",
+    "year": 2011,
+    "rating": 7.8,
+    "director": "David Fincher"
+  },
+  {
+    "id": 91,
+    "title": "Nightcrawler",
+    "genre": "Thriller",
+    "year": 2014,
+    "rating": 7.8,
+    "director": "Dan Gilroy"
+  },
+  {
+    "id": 92,
+    "title": "Drive",
+    "genre": "Thriller",
+    "year": 2011,
+    "rating": 7.8,
+    "director": "Nicolas Winding Refn"
+  },
+  {
+    "id": 93,
+    "title": "Oldboy",
+    "genre": "Thriller",
+    "year": 2003,
+    "rating": 8.4,
+    "director": "Park Chan-wook"
+  },
+  {
+    "id": 94,
+    "title": "Memento",
+    "genre": "Thriller",
+    "year": 2000,
+    "rating": 8.4,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 95,
+    "title": "The Sixth Sense",
+    "genre": "Thriller",
+    "year": 1999,
+    "rating": 8.1,
+    "director": "M. Night Shyamalan"
+  },
+  {
+    "id": 96,
+    "title": "Knives Out 2: Glass Onion",
+    "genre": "Mystery",
+    "year": 2022,
+    "rating": 7.1,
+    "director": "Rian Johnson"
+  },
+  {
+    "id": 97,
+    "title": "Murder on the Orient Express",
+    "genre": "Mystery",
+    "year": 2017,
+    "rating": 6.5,
+    "director": "Kenneth Branagh"
+  },
+  {
+    "id": 98,
+    "title": "Sherlock Holmes",
+    "genre": "Mystery",
+    "year": 2009,
+    "rating": 7.6,
+    "director": "Guy Ritchie"
+  },
+  {
+    "id": 99,
+    "title": "The Da Vinci Code",
+    "genre": "Mystery",
+    "year": 2006,
+    "rating": 6.6,
+    "director": "Ron Howard"
+  },
+  {
+    "id": 100,
+    "title": "Rear Window",
+    "genre": "Mystery",
+    "year": 1954,
+    "rating": 8.5,
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 101,
+    "title": "Vertigo",
+    "genre": "Mystery",
+    "year": 1958,
+    "rating": 8.3,
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 102,
+    "title": "L.A. Confidential",
+    "genre": "Mystery",
+    "year": 1997,
+    "rating": 8.2,
+    "director": "Curtis Hanson"
+  },
+  {
+    "id": 103,
+    "title": "Big Little Lies the Movie",
+    "genre": "Mystery",
+    "year": 2019,
+    "rating": 7.0,
+    "director": "Jean-Marc Vallee"
+  },
+  {
+    "id": 104,
+    "title": "Clue",
+    "genre": "Mystery",
+    "year": 1985,
+    "rating": 7.3,
+    "director": "Jonathan Lynn"
+  },
+  {
+    "id": 105,
+    "title": "The Nice Guys",
+    "genre": "Mystery",
+    "year": 2016,
+    "rating": 7.4,
+    "director": "Shane Black"
+  },
+  {
+    "id": 106,
+    "title": "Dunkirk",
+    "genre": "War",
+    "year": 2017,
+    "rating": 7.8,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 107,
+    "title": "Hacksaw Ridge",
+    "genre": "War",
+    "year": 2016,
+    "rating": 8.1,
+    "director": "Mel Gibson"
+  },
+  {
+    "id": 108,
+    "title": "Full Metal Jacket",
+    "genre": "War",
+    "year": 1987,
+    "rating": 8.3,
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 109,
+    "title": "Apocalypse Now",
+    "genre": "War",
+    "year": 1979,
+    "rating": 8.4,
+    "director": "Francis Ford Coppola"
+  },
+  {
+    "id": 110,
+    "title": "Black Hawk Down",
+    "genre": "War",
+    "year": 2001,
+    "rating": 7.7,
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 111,
+    "title": "Letters from Iwo Jima",
+    "genre": "War",
+    "year": 2006,
+    "rating": 7.9,
+    "director": "Clint Eastwood"
+  },
+  {
+    "id": 112,
+    "title": "The Hurt Locker",
+    "genre": "War",
+    "year": 2008,
+    "rating": 7.5,
+    "director": "Kathryn Bigelow"
+  },
+  {
+    "id": 113,
+    "title": "Inglourious Basterds",
+    "genre": "War",
+    "year": 2009,
+    "rating": 8.3,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 114,
+    "title": "Platoon",
+    "genre": "War",
+    "year": 1986,
+    "rating": 8.1,
+    "director": "Oliver Stone"
+  },
+  {
+    "id": 115,
+    "title": "The Greatest Showman",
+    "genre": "Musical",
+    "year": 2017,
+    "rating": 7.4,
+    "director": "Michael Gracey"
+  },
+  {
+    "id": 116,
+    "title": "Mamma Mia!",
+    "genre": "Musical",
+    "year": 2008,
+    "rating": 6.4,
+    "director": "Phyllida Lloyd"
+  },
+  {
+    "id": 117,
+    "title": "Chicago",
+    "genre": "Musical",
+    "year": 2002,
+    "rating": 7.1,
+    "director": "Rob Marshall"
+  },
+  {
+    "id": 118,
+    "title": "Les Miserables",
+    "genre": "Musical",
+    "year": 2012,
+    "rating": 7.6,
+    "director": "Tom Hooper"
+  },
+  {
+    "id": 119,
+    "title": "Grease",
+    "genre": "Musical",
+    "year": 1978,
+    "rating": 7.2,
+    "director": "Randal Kleiser"
+  },
+  {
+    "id": 120,
+    "title": "Singin' in the Rain",
+    "genre": "Musical",
+    "year": 1952,
+    "rating": 8.3,
+    "director": "Stanley Donen"
+  },
+  {
+    "id": 121,
+    "title": "West Side Story",
+    "genre": "Musical",
+    "year": 2021,
+    "rating": 7.3,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 122,
+    "title": "Sound of Music",
+    "genre": "Musical",
+    "year": 1965,
+    "rating": 8.0,
+    "director": "Robert Wise"
+  },
+  {
+    "id": 123,
+    "title": "Wicked",
+    "genre": "Musical",
+    "year": 2024,
+    "rating": 7.7,
+    "director": "Jon M. Chu"
+  },
+  {
+    "id": 124,
+    "title": "Free Solo",
+    "genre": "Documentary",
+    "year": 2018,
+    "rating": 8.1,
+    "director": "Jimmy Chin"
+  },
+  {
+    "id": 125,
+    "title": "Won't You Be My Neighbor?",
+    "genre": "Documentary",
+    "year": 2018,
+    "rating": 8.4,
+    "director": "Morgan Neville"
+  },
+  {
+    "id": 126,
+    "title": "Amy",
+    "genre": "Documentary",
+    "year": 2015,
+    "rating": 7.8,
+    "director": "Asif Kapadia"
+  },
+  {
+    "id": 127,
+    "title": "13th",
+    "genre": "Documentary",
+    "year": 2016,
+    "rating": 8.2,
+    "director": "Ava DuVernay"
+  },
+  {
+    "id": 128,
+    "title": "March of the Penguins",
+    "genre": "Documentary",
+    "year": 2005,
+    "rating": 7.5,
+    "director": "Luc Jacquet"
+  },
+  {
+    "id": 129,
+    "title": "The Social Dilemma",
+    "genre": "Documentary",
+    "year": 2020,
+    "rating": 7.6,
+    "director": "Jeff Orlowski"
+  },
+  {
+    "id": 130,
+    "title": "Icarus",
+    "genre": "Documentary",
+    "year": 2017,
+    "rating": 7.9,
+    "director": "Bryan Fogel"
+  },
+  {
+    "id": 131,
+    "title": "Jiro Dreams of Sushi",
+    "genre": "Documentary",
+    "year": 2011,
+    "rating": 7.9,
+    "director": "David Gelb"
+  },
+  {
+    "id": 132,
+    "title": "Man on Wire",
+    "genre": "Documentary",
+    "year": 2008,
+    "rating": 7.9,
+    "director": "James Marsh"
+  },
+  {
+    "id": 133,
+    "title": "The Last Dance",
+    "genre": "Documentary",
+    "year": 2020,
+    "rating": 9.0,
+    "director": "Jason Hehir"
+  },
+  {
+    "id": 134,
+    "title": "Casablanca",
+    "genre": "Romance",
+    "year": 1942,
+    "rating": 8.5,
+    "director": "Michael Curtiz"
+  },
+  {
+    "id": 135,
+    "title": "Roman Holiday",
+    "genre": "Romance",
+    "year": 1953,
+    "rating": 7.9,
+    "director": "William Wyler"
+  },
+  {
+    "id": 136,
+    "title": "Before Sunrise",
+    "genre": "Romance",
+    "year": 1995,
+    "rating": 8.1,
+    "director": "Richard Linklater"
+  },
+  {
+    "id": 137,
+    "title": "Pride",
+    "genre": "Comedy",
+    "year": 2014,
+    "rating": 7.8,
+    "director": "Matthew Warchus"
+  },
+  {
+    "id": 138,
+    "title": "Bridesmaids",
+    "genre": "Comedy",
+    "year": 2011,
+    "rating": 6.8,
+    "director": "Paul Feig"
+  },
+  {
+    "id": 139,
+    "title": "21 Jump Street",
+    "genre": "Comedy",
+    "year": 2012,
+    "rating": 7.2,
+    "director": "Phil Lord"
+  },
+  {
+    "id": 140,
+    "title": "Anchorman",
+    "genre": "Comedy",
+    "year": 2004,
+    "rating": 7.2,
+    "director": "Adam McKay"
+  },
+  {
+    "id": 141,
+    "title": "Tropic Thunder",
+    "genre": "Comedy",
+    "year": 2008,
+    "rating": 7.0,
+    "director": "Ben Stiller"
+  },
+  {
+    "id": 142,
+    "title": "The Truman Show",
+    "genre": "Comedy",
+    "year": 1998,
+    "rating": 8.2,
+    "director": "Peter Weir"
+  },
+  {
+    "id": 143,
+    "title": "Groundhog Day",
+    "genre": "Comedy",
+    "year": 1993,
+    "rating": 8.0,
+    "director": "Harold Ramis"
+  },
+  {
+    "id": 144,
+    "title": "The Princess Bride",
+    "genre": "Comedy",
+    "year": 1987,
+    "rating": 8.0,
+    "director": "Rob Reiner"
+  },
+  {
+    "id": 145,
+    "title": "Annie Hall",
+    "genre": "Comedy",
+    "year": 1977,
+    "rating": 8.0,
+    "director": "Woody Allen"
+  },
+  {
+    "id": 146,
+    "title": "Borat",
+    "genre": "Comedy",
+    "year": 2006,
+    "rating": 7.3,
+    "director": "Larry Charles"
+  },
+  {
+    "id": 147,
+    "title": "It Follows",
+    "genre": "Horror",
+    "year": 2014,
+    "rating": 6.9,
+    "director": "David Robert Mitchell"
+  },
+  {
+    "id": 148,
+    "title": "Train to Busan",
+    "genre": "Horror",
+    "year": 2016,
+    "rating": 7.6,
+    "director": "Yeon Sang-ho"
+  },
+  {
+    "id": 149,
+    "title": "The Witch",
+    "genre": "Horror",
+    "year": 2015,
+    "rating": 6.9,
+    "director": "Robert Eggers"
+  },
+  {
+    "id": 150,
+    "title": "Sinister",
+    "genre": "Horror",
+    "year": 2012,
+    "rating": 6.8,
+    "director": "Scott Derrickson"
+  },
+  {
+    "id": 151,
+    "title": "Insidious",
+    "genre": "Horror",
+    "year": 2010,
+    "rating": 6.8,
+    "director": "James Wan"
+  },
+  {
+    "id": 152,
+    "title": "The Ring",
+    "genre": "Horror",
+    "year": 2002,
+    "rating": 7.1,
+    "director": "Gore Verbinski"
+  },
+  {
+    "id": 153,
+    "title": "Annabelle",
+    "genre": "Horror",
+    "year": 2014,
+    "rating": 5.4,
+    "director": "John R. Leonetti"
+  },
+  {
+    "id": 154,
+    "title": "Smile",
+    "genre": "Horror",
+    "year": 2022,
+    "rating": 6.6,
+    "director": "Parker Finn"
+  },
+  {
+    "id": 155,
+    "title": "Saw",
+    "genre": "Horror",
+    "year": 2004,
+    "rating": 7.6,
+    "director": "James Wan"
+  },
+  {
+    "id": 156,
+    "title": "28 Days Later",
+    "genre": "Horror",
+    "year": 2002,
+    "rating": 7.6,
+    "director": "Danny Boyle"
+  },
+  {
+    "id": 157,
+    "title": "The Wolf of Wall Street",
+    "genre": "Crime",
+    "year": 2013,
+    "rating": 8.2,
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 158,
+    "title": "Casino",
+    "genre": "Crime",
+    "year": 1995,
+    "rating": 8.2,
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 159,
+    "title": "American History X",
+    "genre": "Drama",
+    "year": 1998,
+    "rating": 8.5,
+    "director": "Tony Kaye"
+  },
+  {
+    "id": 160,
+    "title": "12 Angry Men",
+    "genre": "Drama",
+    "year": 1957,
+    "rating": 9.0,
+    "director": "Sidney Lumet"
+  },
+  {
+    "id": 161,
+    "title": "One Flew Over the Cuckoo's Nest",
+    "genre": "Drama",
+    "year": 1975,
+    "rating": 8.7,
+    "director": "Milos Forman"
+  },
+  {
+    "id": 162,
+    "title": "The Green Mile",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 8.6,
+    "director": "Frank Darabont"
+  },
+  {
+    "id": 163,
+    "title": "Million Dollar Baby",
+    "genre": "Drama",
+    "year": 2004,
+    "rating": 8.1,
+    "director": "Clint Eastwood"
+  },
+  {
+    "id": 164,
+    "title": "Manchester by the Sea",
+    "genre": "Drama",
+    "year": 2016,
+    "rating": 7.8,
+    "director": "Kenneth Lonergan"
+  },
+  {
+    "id": 165,
+    "title": "Moonlight",
+    "genre": "Drama",
+    "year": 2016,
+    "rating": 7.4,
+    "director": "Barry Jenkins"
+  },
+  {
+    "id": 166,
+    "title": "The Revenant",
+    "genre": "Drama",
+    "year": 2015,
+    "rating": 8.0,
+    "director": "Alejandro G. Inarritu"
+  },
+  {
+    "id": 167,
+    "title": "There Will Be Blood",
+    "genre": "Drama",
+    "year": 2007,
+    "rating": 8.2,
+    "director": "Paul Thomas Anderson"
+  },
+  {
+    "id": 168,
+    "title": "Capernaum",
+    "genre": "Drama",
+    "year": 2018,
+    "rating": 8.4,
+    "director": "Nadine Labaki"
+  },
+  {
+    "id": 169,
+    "title": "Star Wars: A New Hope",
+    "genre": "Sci-Fi",
+    "year": 1977,
+    "rating": 8.6,
+    "director": "George Lucas"
+  },
+  {
+    "id": 170,
+    "title": "Star Wars: The Empire Strikes Back",
+    "genre": "Sci-Fi",
+    "year": 1980,
+    "rating": 8.7,
+    "director": "Irvin Kershner"
+  },
+  {
+    "id": 171,
+    "title": "Guardians of the Galaxy",
+    "genre": "Action",
+    "year": 2014,
+    "rating": 8.0,
+    "director": "James Gunn"
+  },
+  {
+    "id": 172,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "genre": "Animation",
+    "year": 2018,
+    "rating": 8.4,
+    "director": "Bob Persichetti"
+  },
+  {
+    "id": 173,
+    "title": "Mission: Impossible - Fallout",
+    "genre": "Action",
+    "year": 2018,
+    "rating": 7.7,
+    "director": "Christopher McQuarrie"
+  },
+  {
+    "id": 174,
+    "title": "Casino Royale",
+    "genre": "Action",
+    "year": 2006,
+    "rating": 8.0,
+    "director": "Martin Campbell"
+  },
+  {
+    "id": 175,
+    "title": "Kill Bill: Vol. 1",
+    "genre": "Action",
+    "year": 2003,
+    "rating": 8.2,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 176,
+    "title": "300",
+    "genre": "Action",
+    "year": 2006,
+    "rating": 7.6,
+    "director": "Zack Snyder"
+  },
+  {
+    "id": 177,
+    "title": "The Raid",
+    "genre": "Action",
+    "year": 2011,
+    "rating": 7.6,
+    "director": "Gareth Evans"
+  },
+  {
+    "id": 178,
+    "title": "Baby Driver",
+    "genre": "Action",
+    "year": 2017,
+    "rating": 7.6,
+    "director": "Edgar Wright"
+  },
+  {
+    "id": 179,
+    "title": "Klaus",
+    "genre": "Animation",
+    "year": 2019,
+    "rating": 8.2,
+    "director": "Sergio Pablos"
+  },
+  {
+    "id": 180,
+    "title": "The Iron Giant",
+    "genre": "Animation",
+    "year": 1999,
+    "rating": 7.9,
+    "director": "Brad Bird"
+  },
+  {
+    "id": 181,
+    "title": "Big Hero 6",
+    "genre": "Animation",
+    "year": 2014,
+    "rating": 7.8,
+    "director": "Don Hall"
+  },
+  {
+    "id": 182,
+    "title": "Soul",
+    "genre": "Animation",
+    "year": 2020,
+    "rating": 8.1,
+    "director": "Pete Docter"
+  },
+  {
+    "id": 183,
+    "title": "Princess Mononoke",
+    "genre": "Animation",
+    "year": 1997,
+    "rating": 8.4,
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 184,
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "genre": "Action",
+    "year": 2003,
+    "rating": 8.0,
+    "director": "Gore Verbinski"
+  },
+  {
+    "id": 185,
+    "title": "Iron Man",
+    "genre": "Action",
+    "year": 2008,
+    "rating": 7.9,
+    "director": "Jon Favreau"
+  },
+  {
+    "id": 186,
+    "title": "Captain America: The Winter Soldier",
+    "genre": "Action",
+    "year": 2014,
+    "rating": 7.8,
+    "director": "Anthony Russo"
+  },
+  {
+    "id": 187,
+    "title": "Black Panther",
+    "genre": "Action",
+    "year": 2018,
+    "rating": 7.3,
+    "director": "Ryan Coogler"
+  },
+  {
+    "id": 188,
+    "title": "Wonder Woman",
+    "genre": "Action",
+    "year": 2017,
+    "rating": 7.4,
+    "director": "Patty Jenkins"
+  },
+  {
+    "id": 189,
+    "title": "Aquaman",
+    "genre": "Action",
+    "year": 2018,
+    "rating": 6.8,
+    "director": "James Wan"
+  },
+  {
+    "id": 190,
+    "title": "Speed",
+    "genre": "Action",
+    "year": 1994,
+    "rating": 7.3,
+    "director": "Jan de Bont"
+  },
+  {
+    "id": 191,
+    "title": "The Rock",
+    "genre": "Action",
+    "year": 1996,
+    "rating": 7.4,
+    "director": "Michael Bay"
+  },
+  {
+    "id": 192,
+    "title": "Con Air",
+    "genre": "Action",
+    "year": 1997,
+    "rating": 6.8,
+    "director": "Simon West"
+  },
+  {
+    "id": 193,
+    "title": "Face/Off",
+    "genre": "Action",
+    "year": 1997,
+    "rating": 7.3,
+    "director": "John Woo"
+  },
+  {
+    "id": 194,
+    "title": "True Lies",
+    "genre": "Action",
+    "year": 1994,
+    "rating": 7.2,
+    "director": "James Cameron"
+  },
+  {
+    "id": 195,
+    "title": "Predator",
+    "genre": "Action",
+    "year": 1987,
+    "rating": 7.8,
+    "director": "John McTiernan"
+  },
+  {
+    "id": 196,
+    "title": "RoboCop",
+    "genre": "Action",
+    "year": 1987,
+    "rating": 7.6,
+    "director": "Paul Verhoeven"
+  },
+  {
+    "id": 197,
+    "title": "Terminator 2: Judgment Day",
+    "genre": "Action",
+    "year": 1991,
+    "rating": 8.6,
+    "director": "James Cameron"
+  },
+  {
+    "id": 198,
+    "title": "The Terminator",
+    "genre": "Action",
+    "year": 1984,
+    "rating": 8.1,
+    "director": "James Cameron"
+  },
+  {
+    "id": 199,
+    "title": "Lethal Weapon",
+    "genre": "Action",
+    "year": 1987,
+    "rating": 7.6,
+    "director": "Richard Donner"
+  },
+  {
+    "id": 200,
+    "title": "Commando",
+    "genre": "Action",
+    "year": 1985,
+    "rating": 6.6,
+    "director": "Mark L. Lester"
+  },
+  {
+    "id": 201,
+    "title": "First Blood",
+    "genre": "Action",
+    "year": 1982,
+    "rating": 7.7,
+    "director": "Ted Kotcheff"
+  },
+  {
+    "id": 202,
+    "title": "Point Break",
+    "genre": "Action",
+    "year": 1991,
+    "rating": 7.3,
+    "director": "Kathryn Bigelow"
+  },
+  {
+    "id": 203,
+    "title": "The Fugitive",
+    "genre": "Action",
+    "year": 1993,
+    "rating": 7.8,
+    "director": "Andrew Davis"
+  },
+  {
+    "id": 204,
+    "title": "Air Force One",
+    "genre": "Action",
+    "year": 1997,
+    "rating": 6.5,
+    "director": "Wolfgang Petersen"
+  },
+  {
+    "id": 205,
+    "title": "Tenet",
+    "genre": "Action",
+    "year": 2020,
+    "rating": 7.3,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 206,
+    "title": "Mission: Impossible",
+    "genre": "Action",
+    "year": 1996,
+    "rating": 7.1,
+    "director": "Brian De Palma"
+  },
+  {
+    "id": 207,
+    "title": "Mission: Impossible 2",
+    "genre": "Action",
+    "year": 2000,
+    "rating": 6.1,
+    "director": "John Woo"
+  },
+  {
+    "id": 208,
+    "title": "Mission: Impossible - Ghost Protocol",
+    "genre": "Action",
+    "year": 2011,
+    "rating": 7.4,
+    "director": "Brad Bird"
+  },
+  {
+    "id": 209,
+    "title": "Captain Marvel",
+    "genre": "Action",
+    "year": 2019,
+    "rating": 6.8,
+    "director": "Anna Boden"
+  },
+  {
+    "id": 210,
+    "title": "Thor: Ragnarok",
+    "genre": "Action",
+    "year": 2017,
+    "rating": 7.9,
+    "director": "Taika Waititi"
+  },
+  {
+    "id": 211,
+    "title": "Spider-Man: No Way Home",
+    "genre": "Action",
+    "year": 2021,
+    "rating": 8.2,
+    "director": "Jon Watts"
+  },
+  {
+    "id": 212,
+    "title": "Deadpool",
+    "genre": "Action",
+    "year": 2016,
+    "rating": 8.0,
+    "director": "Tim Miller"
+  },
+  {
+    "id": 213,
+    "title": "Kingsman: The Secret Service",
+    "genre": "Action",
+    "year": 2014,
+    "rating": 7.7,
+    "director": "Matthew Vaughn"
+  },
+  {
+    "id": 214,
+    "title": "The Equalizer",
+    "genre": "Action",
+    "year": 2014,
+    "rating": 7.2,
+    "director": "Antoine Fuqua"
+  },
+  {
+    "id": 215,
+    "title": "Taken",
+    "genre": "Action",
+    "year": 2008,
+    "rating": 7.8,
+    "director": "Pierre Morel"
+  },
+  {
+    "id": 216,
+    "title": "Olympus Has Fallen",
+    "genre": "Action",
+    "year": 2013,
+    "rating": 6.5,
+    "director": "Antoine Fuqua"
+  },
+  {
+    "id": 217,
+    "title": "Sicario",
+    "genre": "Action",
+    "year": 2015,
+    "rating": 7.6,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 218,
+    "title": "Children of Men",
+    "genre": "Sci-Fi",
+    "year": 2006,
+    "rating": 7.9,
+    "director": "Alfonso Cuaron"
+  },
+  {
+    "id": 219,
+    "title": "Gattaca",
+    "genre": "Sci-Fi",
+    "year": 1997,
+    "rating": 7.8,
+    "director": "Andrew Niccol"
+  },
+  {
+    "id": 220,
+    "title": "Minority Report",
+    "genre": "Sci-Fi",
+    "year": 2002,
+    "rating": 7.6,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 221,
+    "title": "I, Robot",
+    "genre": "Sci-Fi",
+    "year": 2004,
+    "rating": 7.1,
+    "director": "Alex Proyas"
+  },
+  {
+    "id": 222,
+    "title": "Total Recall",
+    "genre": "Sci-Fi",
+    "year": 1990,
+    "rating": 7.5,
+    "director": "Paul Verhoeven"
+  },
+  {
+    "id": 223,
+    "title": "Starship Troopers",
+    "genre": "Sci-Fi",
+    "year": 1997,
+    "rating": 7.2,
+    "director": "Paul Verhoeven"
+  },
+  {
+    "id": 224,
+    "title": "The Fifth Element",
+    "genre": "Sci-Fi",
+    "year": 1997,
+    "rating": 7.6,
+    "director": "Luc Besson"
+  },
+  {
+    "id": 225,
+    "title": "Contact",
+    "genre": "Sci-Fi",
+    "year": 1997,
+    "rating": 7.5,
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 226,
+    "title": "2001: A Space Odyssey",
+    "genre": "Sci-Fi",
+    "year": 1968,
+    "rating": 8.3,
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 227,
+    "title": "Close Encounters of the Third Kind",
+    "genre": "Sci-Fi",
+    "year": 1977,
+    "rating": 7.6,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 228,
+    "title": "E.T. the Extra-Terrestrial",
+    "genre": "Sci-Fi",
+    "year": 1982,
+    "rating": 7.9,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 229,
+    "title": "Jurassic Park",
+    "genre": "Sci-Fi",
+    "year": 1993,
+    "rating": 8.2,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 230,
+    "title": "Back to the Future",
+    "genre": "Sci-Fi",
+    "year": 1985,
+    "rating": 8.5,
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 231,
+    "title": "Back to the Future Part II",
+    "genre": "Sci-Fi",
+    "year": 1989,
+    "rating": 7.8,
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 232,
+    "title": "Alien",
+    "genre": "Sci-Fi",
+    "year": 1979,
+    "rating": 8.5,
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 233,
+    "title": "Aliens",
+    "genre": "Sci-Fi",
+    "year": 1986,
+    "rating": 8.4,
+    "director": "James Cameron"
+  },
+  {
+    "id": 234,
+    "title": "Looper",
+    "genre": "Sci-Fi",
+    "year": 2012,
+    "rating": 7.4,
+    "director": "Rian Johnson"
+  },
+  {
+    "id": 235,
+    "title": "Annihilation",
+    "genre": "Sci-Fi",
+    "year": 2018,
+    "rating": 6.8,
+    "director": "Alex Garland"
+  },
+  {
+    "id": 236,
+    "title": "Moon",
+    "genre": "Sci-Fi",
+    "year": 2009,
+    "rating": 7.8,
+    "director": "Duncan Jones"
+  },
+  {
+    "id": 237,
+    "title": "Snowpiercer",
+    "genre": "Sci-Fi",
+    "year": 2013,
+    "rating": 7.0,
+    "director": "Bong Joon Ho"
+  },
+  {
+    "id": 238,
+    "title": "Elysium",
+    "genre": "Sci-Fi",
+    "year": 2013,
+    "rating": 6.6,
+    "director": "Neill Blomkamp"
+  },
+  {
+    "id": 239,
+    "title": "Pacific Rim",
+    "genre": "Sci-Fi",
+    "year": 2013,
+    "rating": 7.0,
+    "director": "Guillermo del Toro"
+  },
+  {
+    "id": 240,
+    "title": "A.I. Artificial Intelligence",
+    "genre": "Sci-Fi",
+    "year": 2001,
+    "rating": 7.2,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 241,
+    "title": "Wall Street",
+    "genre": "Drama",
+    "year": 1987,
+    "rating": 7.4,
+    "director": "Oliver Stone"
+  },
+  {
+    "id": 242,
+    "title": "The Big Short",
+    "genre": "Drama",
+    "year": 2015,
+    "rating": 7.8,
+    "director": "Adam McKay"
+  },
+  {
+    "id": 243,
+    "title": "Moneyball",
+    "genre": "Drama",
+    "year": 2011,
+    "rating": 7.6,
+    "director": "Bennett Miller"
+  },
+  {
+    "id": 244,
+    "title": "The Social Network",
+    "genre": "Drama",
+    "year": 2010,
+    "rating": 7.7,
+    "director": "David Fincher"
+  },
+  {
+    "id": 245,
+    "title": "Catch Me If You Can",
+    "genre": "Drama",
+    "year": 2002,
+    "rating": 8.1,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 246,
+    "title": "Lincoln",
+    "genre": "Drama",
+    "year": 2012,
+    "rating": 7.4,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 247,
+    "title": "The King's Speech",
+    "genre": "Drama",
+    "year": 2010,
+    "rating": 8.0,
+    "director": "Tom Hooper"
+  },
+  {
+    "id": 248,
+    "title": "The Theory of Everything",
+    "genre": "Drama",
+    "year": 2014,
+    "rating": 7.7,
+    "director": "James Marsh"
+  },
+  {
+    "id": 249,
+    "title": "The Imitation Game",
+    "genre": "Drama",
+    "year": 2014,
+    "rating": 8.0,
+    "director": "Morten Tyldum"
+  },
+  {
+    "id": 250,
+    "title": "Spotlight",
+    "genre": "Drama",
+    "year": 2015,
+    "rating": 8.1,
+    "director": "Tom McCarthy"
+  },
+  {
+    "id": 251,
+    "title": "Erin Brockovich",
+    "genre": "Drama",
+    "year": 2000,
+    "rating": 7.3,
+    "director": "Steven Soderbergh"
+  },
+  {
+    "id": 252,
+    "title": "The Pursuit of Happyness",
+    "genre": "Drama",
+    "year": 2006,
+    "rating": 8.0,
+    "director": "Gabriele Muccino"
+  },
+  {
+    "id": 253,
+    "title": "Dead Poets Society",
+    "genre": "Drama",
+    "year": 1989,
+    "rating": 8.1,
+    "director": "Peter Weir"
+  },
+  {
+    "id": 254,
+    "title": "Rain Man",
+    "genre": "Drama",
+    "year": 1988,
+    "rating": 8.0,
+    "director": "Barry Levinson"
+  },
+  {
+    "id": 255,
+    "title": "As Good as It Gets",
+    "genre": "Drama",
+    "year": 1997,
+    "rating": 7.4,
+    "director": "James L. Brooks"
+  },
+  {
+    "id": 256,
+    "title": "Cast Away",
+    "genre": "Drama",
+    "year": 2000,
+    "rating": 7.8,
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 257,
+    "title": "The Terminal",
+    "genre": "Drama",
+    "year": 2004,
+    "rating": 7.4,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 258,
+    "title": "Big Fish",
+    "genre": "Drama",
+    "year": 2003,
+    "rating": 8.0,
+    "director": "Tim Burton"
+  },
+  {
+    "id": 259,
+    "title": "American Beauty",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 8.3,
+    "director": "Sam Mendes"
+  },
+  {
+    "id": 260,
+    "title": "Magnolia",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 8.0,
+    "director": "Paul Thomas Anderson"
+  },
+  {
+    "id": 261,
+    "title": "Boogie Nights",
+    "genre": "Drama",
+    "year": 1997,
+    "rating": 7.9,
+    "director": "Paul Thomas Anderson"
+  },
+  {
+    "id": 262,
+    "title": "The Master",
+    "genre": "Drama",
+    "year": 2012,
+    "rating": 7.2,
+    "director": "Paul Thomas Anderson"
+  },
+  {
+    "id": 263,
+    "title": "Phantom Thread",
+    "genre": "Drama",
+    "year": 2017,
+    "rating": 7.4,
+    "director": "Paul Thomas Anderson"
+  },
+  {
+    "id": 264,
+    "title": "Marriage Story",
+    "genre": "Drama",
+    "year": 2019,
+    "rating": 7.9,
+    "director": "Noah Baumbach"
+  },
+  {
+    "id": 265,
+    "title": "Lady Bird",
+    "genre": "Drama",
+    "year": 2017,
+    "rating": 7.4,
+    "director": "Greta Gerwig"
+  },
+  {
+    "id": 266,
+    "title": "Little Women",
+    "genre": "Drama",
+    "year": 2019,
+    "rating": 7.8,
+    "director": "Greta Gerwig"
+  },
+  {
+    "id": 267,
+    "title": "The Florida Project",
+    "genre": "Drama",
+    "year": 2017,
+    "rating": 7.6,
+    "director": "Sean Baker"
+  },
+  {
+    "id": 268,
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "genre": "Drama",
+    "year": 2017,
+    "rating": 8.1,
+    "director": "Martin McDonagh"
+  },
+  {
+    "id": 269,
+    "title": "Roma",
+    "genre": "Drama",
+    "year": 2018,
+    "rating": 7.7,
+    "director": "Alfonso Cuaron"
+  },
+  {
+    "id": 270,
+    "title": "The Shape of Water",
+    "genre": "Drama",
+    "year": 2017,
+    "rating": 7.3,
+    "director": "Guillermo del Toro"
+  },
+  {
+    "id": 271,
+    "title": "Birdman",
+    "genre": "Drama",
+    "year": 2014,
+    "rating": 7.7,
+    "director": "Alejandro G. Inarritu"
+  },
+  {
+    "id": 272,
+    "title": "The Tree of Life",
+    "genre": "Drama",
+    "year": 2011,
+    "rating": 6.8,
+    "director": "Terrence Malick"
+  },
+  {
+    "id": 273,
+    "title": "Nomadland",
+    "genre": "Drama",
+    "year": 2020,
+    "rating": 7.3,
+    "director": "Chloe Zhao"
+  },
+  {
+    "id": 274,
+    "title": "CODA",
+    "genre": "Drama",
+    "year": 2021,
+    "rating": 8.0,
+    "director": "Sian Heder"
+  },
+  {
+    "id": 275,
+    "title": "The Banshees of Inisherin",
+    "genre": "Comedy",
+    "year": 2022,
+    "rating": 7.7,
+    "director": "Martin McDonagh"
+  },
+  {
+    "id": 276,
+    "title": "Anora",
+    "genre": "Comedy",
+    "year": 2024,
+    "rating": 7.5,
+    "director": "Sean Baker"
+  },
+  {
+    "id": 277,
+    "title": "American Pie",
+    "genre": "Comedy",
+    "year": 1999,
+    "rating": 7.0,
+    "director": "Paul Weitz"
+  },
+  {
+    "id": 278,
+    "title": "Dumb and Dumber",
+    "genre": "Comedy",
+    "year": 1994,
+    "rating": 7.3,
+    "director": "Peter Farrelly"
+  },
+  {
+    "id": 279,
+    "title": "Zoolander",
+    "genre": "Comedy",
+    "year": 2001,
+    "rating": 6.5,
+    "director": "Ben Stiller"
+  },
+  {
+    "id": 280,
+    "title": "Napoleon Dynamite",
+    "genre": "Comedy",
+    "year": 2004,
+    "rating": 6.9,
+    "director": "Jared Hess"
+  },
+  {
+    "id": 281,
+    "title": "Mean Girls",
+    "genre": "Comedy",
+    "year": 2004,
+    "rating": 7.0,
+    "director": "Mark Waters"
+  },
+  {
+    "id": 282,
+    "title": "Legally Blonde",
+    "genre": "Comedy",
+    "year": 2001,
+    "rating": 6.3,
+    "director": "Robert Luketic"
+  },
+  {
+    "id": 283,
+    "title": "Clueless",
+    "genre": "Comedy",
+    "year": 1995,
+    "rating": 6.9,
+    "director": "Amy Heckerling"
+  },
+  {
+    "id": 284,
+    "title": "10 Things I Hate About You",
+    "genre": "Comedy",
+    "year": 1999,
+    "rating": 7.2,
+    "director": "Gil Junger"
+  },
+  {
+    "id": 285,
+    "title": "The Breakfast Club",
+    "genre": "Comedy",
+    "year": 1985,
+    "rating": 7.8,
+    "director": "John Hughes"
+  },
+  {
+    "id": 286,
+    "title": "Ferris Bueller's Day Off",
+    "genre": "Comedy",
+    "year": 1986,
+    "rating": 7.8,
+    "director": "John Hughes"
+  },
+  {
+    "id": 287,
+    "title": "Home Alone",
+    "genre": "Comedy",
+    "year": 1990,
+    "rating": 7.6,
+    "director": "Chris Columbus"
+  },
+  {
+    "id": 288,
+    "title": "Big",
+    "genre": "Comedy",
+    "year": 1988,
+    "rating": 7.3,
+    "director": "Penny Marshall"
+  },
+  {
+    "id": 289,
+    "title": "Mrs. Doubtfire",
+    "genre": "Comedy",
+    "year": 1993,
+    "rating": 7.0,
+    "director": "Chris Columbus"
+  },
+  {
+    "id": 290,
+    "title": "Liar Liar",
+    "genre": "Comedy",
+    "year": 1997,
+    "rating": 6.7,
+    "director": "Tom Shadyac"
+  },
+  {
+    "id": 291,
+    "title": "The Mask",
+    "genre": "Comedy",
+    "year": 1994,
+    "rating": 6.9,
+    "director": "Chuck Russell"
+  },
+  {
+    "id": 292,
+    "title": "Ace Ventura: Pet Detective",
+    "genre": "Comedy",
+    "year": 1994,
+    "rating": 6.7,
+    "director": "Tom Shadyac"
+  },
+  {
+    "id": 293,
+    "title": "Dr. Strangelove",
+    "genre": "Comedy",
+    "year": 1964,
+    "rating": 8.4,
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 294,
+    "title": "Some Like It Hot",
+    "genre": "Comedy",
+    "year": 1959,
+    "rating": 8.2,
+    "director": "Billy Wilder"
+  },
+  {
+    "id": 295,
+    "title": "Monty Python and the Holy Grail",
+    "genre": "Comedy",
+    "year": 1975,
+    "rating": 8.2,
+    "director": "Terry Gilliam"
+  },
+  {
+    "id": 296,
+    "title": "Airplane!",
+    "genre": "Comedy",
+    "year": 1980,
+    "rating": 7.7,
+    "director": "Jim Abrahams"
+  },
+  {
+    "id": 297,
+    "title": "Coming to America",
+    "genre": "Comedy",
+    "year": 1988,
+    "rating": 7.1,
+    "director": "John Landis"
+  },
+  {
+    "id": 298,
+    "title": "Trading Places",
+    "genre": "Comedy",
+    "year": 1983,
+    "rating": 7.5,
+    "director": "John Landis"
+  },
+  {
+    "id": 299,
+    "title": "The Blues Brothers",
+    "genre": "Comedy",
+    "year": 1980,
+    "rating": 7.9,
+    "director": "John Landis"
+  },
+  {
+    "id": 300,
+    "title": "Caddyshack",
+    "genre": "Comedy",
+    "year": 1980,
+    "rating": 7.3,
+    "director": "Harold Ramis"
+  },
+  {
+    "id": 301,
+    "title": "Office Space",
+    "genre": "Comedy",
+    "year": 1999,
+    "rating": 7.6,
+    "director": "Mike Judge"
+  },
+  {
+    "id": 302,
+    "title": "Idiocracy",
+    "genre": "Comedy",
+    "year": 2006,
+    "rating": 6.5,
+    "director": "Mike Judge"
+  },
+  {
+    "id": 303,
+    "title": "Anchorman 2",
+    "genre": "Comedy",
+    "year": 2013,
+    "rating": 6.3,
+    "director": "Adam McKay"
+  },
+  {
+    "id": 304,
+    "title": "Talladega Nights",
+    "genre": "Comedy",
+    "year": 2006,
+    "rating": 6.6,
+    "director": "Adam McKay"
+  },
+  {
+    "id": 305,
+    "title": "Pineapple Express",
+    "genre": "Comedy",
+    "year": 2008,
+    "rating": 6.9,
+    "director": "David Gordon Green"
+  },
+  {
+    "id": 306,
+    "title": "This Is the End",
+    "genre": "Comedy",
+    "year": 2013,
+    "rating": 6.6,
+    "director": "Evan Goldberg"
+  },
+  {
+    "id": 307,
+    "title": "Neighbors",
+    "genre": "Comedy",
+    "year": 2014,
+    "rating": 6.4,
+    "director": "Nicholas Stoller"
+  },
+  {
+    "id": 308,
+    "title": "Forgetting Sarah Marshall",
+    "genre": "Comedy",
+    "year": 2008,
+    "rating": 7.0,
+    "director": "Nicholas Stoller"
+  },
+  {
+    "id": 309,
+    "title": "Crazy, Stupid, Love",
+    "genre": "Romance",
+    "year": 2011,
+    "rating": 7.4,
+    "director": "Glenn Ficarra"
+  },
+  {
+    "id": 310,
+    "title": "When Harry Met Sally",
+    "genre": "Romance",
+    "year": 1989,
+    "rating": 7.6,
+    "director": "Rob Reiner"
+  },
+  {
+    "id": 311,
+    "title": "Sleepless in Seattle",
+    "genre": "Romance",
+    "year": 1993,
+    "rating": 6.8,
+    "director": "Nora Ephron"
+  },
+  {
+    "id": 312,
+    "title": "You've Got Mail",
+    "genre": "Romance",
+    "year": 1998,
+    "rating": 6.6,
+    "director": "Nora Ephron"
+  },
+  {
+    "id": 313,
+    "title": "Notting Hill",
+    "genre": "Romance",
+    "year": 1999,
+    "rating": 7.0,
+    "director": "Roger Michell"
+  },
+  {
+    "id": 314,
+    "title": "Love Actually",
+    "genre": "Romance",
+    "year": 2003,
+    "rating": 7.6,
+    "director": "Richard Curtis"
+  },
+  {
+    "id": 315,
+    "title": "Bridget Jones's Diary",
+    "genre": "Romance",
+    "year": 2001,
+    "rating": 6.7,
+    "director": "Sharon Maguire"
+  },
+  {
+    "id": 316,
+    "title": "Four Weddings and a Funeral",
+    "genre": "Romance",
+    "year": 1994,
+    "rating": 7.1,
+    "director": "Mike Newell"
+  },
+  {
+    "id": 317,
+    "title": "Dirty Dancing",
+    "genre": "Romance",
+    "year": 1987,
+    "rating": 6.6,
+    "director": "Emile Ardolino"
+  },
+  {
+    "id": 318,
+    "title": "Ghost",
+    "genre": "Romance",
+    "year": 1990,
+    "rating": 7.1,
+    "director": "Jerry Zucker"
+  },
+  {
+    "id": 319,
+    "title": "An Officer and a Gentleman",
+    "genre": "Romance",
+    "year": 1982,
+    "rating": 6.9,
+    "director": "Taylor Hackford"
+  },
+  {
+    "id": 320,
+    "title": "Jerry Maguire",
+    "genre": "Romance",
+    "year": 1996,
+    "rating": 7.3,
+    "director": "Cameron Crowe"
+  },
+  {
+    "id": 321,
+    "title": "Pretty Woman",
+    "genre": "Romance",
+    "year": 1990,
+    "rating": 7.0,
+    "director": "Garry Marshall"
+  },
+  {
+    "id": 322,
+    "title": "Call Me by Your Name",
+    "genre": "Romance",
+    "year": 2017,
+    "rating": 7.8,
+    "director": "Luca Guadagnino"
+  },
+  {
+    "id": 323,
+    "title": "Brokeback Mountain",
+    "genre": "Romance",
+    "year": 2005,
+    "rating": 7.7,
+    "director": "Ang Lee"
+  },
+  {
+    "id": 324,
+    "title": "Moonstruck",
+    "genre": "Romance",
+    "year": 1987,
+    "rating": 7.1,
+    "director": "Norman Jewison"
+  },
+  {
+    "id": 325,
+    "title": "The Fault in Our Stars",
+    "genre": "Romance",
+    "year": 2014,
+    "rating": 7.7,
+    "director": "Josh Boone"
+  },
+  {
+    "id": 326,
+    "title": "Me Before You",
+    "genre": "Romance",
+    "year": 2016,
+    "rating": 7.4,
+    "director": "Thea Sharrock"
+  },
+  {
+    "id": 327,
+    "title": "A Star Is Born",
+    "genre": "Romance",
+    "year": 2018,
+    "rating": 7.6,
+    "director": "Bradley Cooper"
+  },
+  {
+    "id": 328,
+    "title": "Marley & Me",
+    "genre": "Romance",
+    "year": 2008,
+    "rating": 7.1,
+    "director": "David Frankel"
+  },
+  {
+    "id": 329,
+    "title": "The Vow",
+    "genre": "Romance",
+    "year": 2012,
+    "rating": 6.8,
+    "director": "Michael Sucsy"
+  },
+  {
+    "id": 330,
+    "title": "Hidden Figures",
+    "genre": "Drama",
+    "year": 2016,
+    "rating": 7.8,
+    "director": "Theodore Melfi"
+  },
+  {
+    "id": 331,
+    "title": "The Help",
+    "genre": "Drama",
+    "year": 2011,
+    "rating": 8.1,
+    "director": "Tate Taylor"
+  },
+  {
+    "id": 332,
+    "title": "Green Book",
+    "genre": "Drama",
+    "year": 2018,
+    "rating": 8.2,
+    "director": "Peter Farrelly"
+  },
+  {
+    "id": 333,
+    "title": "Selma",
+    "genre": "Drama",
+    "year": 2014,
+    "rating": 7.5,
+    "director": "Ava DuVernay"
+  },
+  {
+    "id": 334,
+    "title": "12 Years a Slave",
+    "genre": "Drama",
+    "year": 2013,
+    "rating": 8.1,
+    "director": "Steve McQueen"
+  },
+  {
+    "id": 335,
+    "title": "Dallas Buyers Club",
+    "genre": "Drama",
+    "year": 2013,
+    "rating": 8.0,
+    "director": "Jean-Marc Vallee"
+  },
+  {
+    "id": 336,
+    "title": "Philadelphia",
+    "genre": "Drama",
+    "year": 1993,
+    "rating": 7.7,
+    "director": "Jonathan Demme"
+  },
+  {
+    "id": 337,
+    "title": "Milk",
+    "genre": "Drama",
+    "year": 2008,
+    "rating": 7.5,
+    "director": "Gus Van Sant"
+  },
+  {
+    "id": 338,
+    "title": "Boys Don't Cry",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 7.4,
+    "director": "Kimberly Peirce"
+  },
+  {
+    "id": 339,
+    "title": "Requiem for a Dream",
+    "genre": "Drama",
+    "year": 2000,
+    "rating": 8.3,
+    "director": "Darren Aronofsky"
+  },
+  {
+    "id": 340,
+    "title": "Black Swan",
+    "genre": "Drama",
+    "year": 2010,
+    "rating": 8.0,
+    "director": "Darren Aronofsky"
+  },
+  {
+    "id": 341,
+    "title": "The Wrestler",
+    "genre": "Drama",
+    "year": 2008,
+    "rating": 7.7,
+    "director": "Darren Aronofsky"
+  },
+  {
+    "id": 342,
+    "title": "Mother!",
+    "genre": "Horror",
+    "year": 2017,
+    "rating": 6.6,
+    "director": "Darren Aronofsky"
+  },
+  {
+    "id": 343,
+    "title": "Pi",
+    "genre": "Drama",
+    "year": 1998,
+    "rating": 7.4,
+    "director": "Darren Aronofsky"
+  },
+  {
+    "id": 344,
+    "title": "The Wailing",
+    "genre": "Horror",
+    "year": 2016,
+    "rating": 7.4,
+    "director": "Na Hong-jin"
+  },
+  {
+    "id": 345,
+    "title": "Bird Box",
+    "genre": "Horror",
+    "year": 2018,
+    "rating": 6.6,
+    "director": "Susanne Bier"
+  },
+  {
+    "id": 346,
+    "title": "The Descent",
+    "genre": "Horror",
+    "year": 2005,
+    "rating": 7.2,
+    "director": "Neil Marshall"
+  },
+  {
+    "id": 347,
+    "title": "Don't Breathe",
+    "genre": "Horror",
+    "year": 2016,
+    "rating": 7.1,
+    "director": "Fede Alvarez"
+  },
+  {
+    "id": 348,
+    "title": "The Evil Dead",
+    "genre": "Horror",
+    "year": 1981,
+    "rating": 7.5,
+    "director": "Sam Raimi"
+  },
+  {
+    "id": 349,
+    "title": "Evil Dead II",
+    "genre": "Horror",
+    "year": 1987,
+    "rating": 7.7,
+    "director": "Sam Raimi"
+  },
+  {
+    "id": 350,
+    "title": "Drag Me to Hell",
+    "genre": "Horror",
+    "year": 2009,
+    "rating": 6.6,
+    "director": "Sam Raimi"
+  },
+  {
+    "id": 351,
+    "title": "Poltergeist",
+    "genre": "Horror",
+    "year": 1982,
+    "rating": 7.3,
+    "director": "Tobe Hooper"
+  },
+  {
+    "id": 352,
+    "title": "The Texas Chain Saw Massacre",
+    "genre": "Horror",
+    "year": 1974,
+    "rating": 7.4,
+    "director": "Tobe Hooper"
+  },
+  {
+    "id": 353,
+    "title": "Halloween",
+    "genre": "Horror",
+    "year": 1978,
+    "rating": 7.7,
+    "director": "John Carpenter"
+  },
+  {
+    "id": 354,
+    "title": "The Thing",
+    "genre": "Horror",
+    "year": 1982,
+    "rating": 8.1,
+    "director": "John Carpenter"
+  },
+  {
+    "id": 355,
+    "title": "Carrie",
+    "genre": "Horror",
+    "year": 1976,
+    "rating": 7.4,
+    "director": "Brian De Palma"
+  },
+  {
+    "id": 356,
+    "title": "A Nightmare on Elm Street",
+    "genre": "Horror",
+    "year": 1984,
+    "rating": 7.3,
+    "director": "Wes Craven"
+  },
+  {
+    "id": 357,
+    "title": "Scream",
+    "genre": "Horror",
+    "year": 1996,
+    "rating": 7.4,
+    "director": "Wes Craven"
+  },
+  {
+    "id": 358,
+    "title": "The Cabin in the Woods",
+    "genre": "Horror",
+    "year": 2011,
+    "rating": 7.0,
+    "director": "Drew Goddard"
+  },
+  {
+    "id": 359,
+    "title": "Us",
+    "genre": "Horror",
+    "year": 2019,
+    "rating": 6.8,
+    "director": "Jordan Peele"
+  },
+  {
+    "id": 360,
+    "title": "Nope",
+    "genre": "Horror",
+    "year": 2022,
+    "rating": 6.8,
+    "director": "Jordan Peele"
+  },
+  {
+    "id": 361,
+    "title": "The Invisible Man",
+    "genre": "Horror",
+    "year": 2020,
+    "rating": 7.1,
+    "director": "Leigh Whannell"
+  },
+  {
+    "id": 362,
+    "title": "Barbarian",
+    "genre": "Horror",
+    "year": 2022,
+    "rating": 7.0,
+    "director": "Zach Cregger"
+  },
+  {
+    "id": 363,
+    "title": "Longlegs",
+    "genre": "Horror",
+    "year": 2024,
+    "rating": 6.6,
+    "director": "Oz Perkins"
+  },
+  {
+    "id": 364,
+    "title": "Heretic",
+    "genre": "Horror",
+    "year": 2024,
+    "rating": 7.1,
+    "director": "Scott Beck"
+  },
+  {
+    "id": 365,
+    "title": "The Substance",
+    "genre": "Horror",
+    "year": 2024,
+    "rating": 7.3,
+    "director": "Coralie Fargeat"
+  },
+  {
+    "id": 366,
+    "title": "Insidious: Chapter 2",
+    "genre": "Horror",
+    "year": 2013,
+    "rating": 6.6,
+    "director": "James Wan"
+  },
+  {
+    "id": 367,
+    "title": "The Conjuring 2",
+    "genre": "Horror",
+    "year": 2016,
+    "rating": 7.3,
+    "director": "James Wan"
+  },
+  {
+    "id": 368,
+    "title": "Annabelle Comes Home",
+    "genre": "Horror",
+    "year": 2019,
+    "rating": 5.9,
+    "director": "Gary Dauberman"
+  },
+  {
+    "id": 369,
+    "title": "M3GAN",
+    "genre": "Horror",
+    "year": 2022,
+    "rating": 6.4,
+    "director": "Gerard Johnstone"
+  },
+  {
+    "id": 370,
+    "title": "American Psycho",
+    "genre": "Thriller",
+    "year": 2000,
+    "rating": 7.6,
+    "director": "Mary Harron"
+  },
+  {
+    "id": 371,
+    "title": "The Game",
+    "genre": "Thriller",
+    "year": 1997,
+    "rating": 7.7,
+    "director": "David Fincher"
+  },
+  {
+    "id": 372,
+    "title": "Panic Room",
+    "genre": "Thriller",
+    "year": 2002,
+    "rating": 6.8,
+    "director": "David Fincher"
+  },
+  {
+    "id": 373,
+    "title": "Side Effects",
+    "genre": "Thriller",
+    "year": 2013,
+    "rating": 7.1,
+    "director": "Steven Soderbergh"
+  },
+  {
+    "id": 374,
+    "title": "Don't Look Now",
+    "genre": "Thriller",
+    "year": 1973,
+    "rating": 7.4,
+    "director": "Nicolas Roeg"
+  },
+  {
+    "id": 375,
+    "title": "Misery",
+    "genre": "Thriller",
+    "year": 1990,
+    "rating": 7.8,
+    "director": "Rob Reiner"
+  },
+  {
+    "id": 376,
+    "title": "Cape Fear",
+    "genre": "Thriller",
+    "year": 1991,
+    "rating": 7.3,
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 377,
+    "title": "Body Heat",
+    "genre": "Thriller",
+    "year": 1981,
+    "rating": 7.1,
+    "director": "Lawrence Kasdan"
+  },
+  {
+    "id": 378,
+    "title": "Wind River",
+    "genre": "Thriller",
+    "year": 2017,
+    "rating": 7.7,
+    "director": "Taylor Sheridan"
+  },
+  {
+    "id": 379,
+    "title": "Hell or High Water",
+    "genre": "Thriller",
+    "year": 2016,
+    "rating": 7.6,
+    "director": "David Mackenzie"
+  },
+  {
+    "id": 380,
+    "title": "A Simple Favor",
+    "genre": "Thriller",
+    "year": 2018,
+    "rating": 6.8,
+    "director": "Paul Feig"
+  },
+  {
+    "id": 381,
+    "title": "The Invitation",
+    "genre": "Thriller",
+    "year": 2015,
+    "rating": 6.6,
+    "director": "Karyn Kusama"
+  },
+  {
+    "id": 382,
+    "title": "Searching",
+    "genre": "Thriller",
+    "year": 2018,
+    "rating": 7.6,
+    "director": "Aneesh Chaganty"
+  },
+  {
+    "id": 383,
+    "title": "Unfriended",
+    "genre": "Horror",
+    "year": 2014,
+    "rating": 5.5,
+    "director": "Levan Gabriadze"
+  },
+  {
+    "id": 384,
+    "title": "Knock at the Cabin",
+    "genre": "Thriller",
+    "year": 2023,
+    "rating": 6.4,
+    "director": "M. Night Shyamalan"
+  },
+  {
+    "id": 385,
+    "title": "Split",
+    "genre": "Thriller",
+    "year": 2016,
+    "rating": 7.3,
+    "director": "M. Night Shyamalan"
+  },
+  {
+    "id": 386,
+    "title": "Unbreakable",
+    "genre": "Thriller",
+    "year": 2000,
+    "rating": 7.3,
+    "director": "M. Night Shyamalan"
+  },
+  {
+    "id": 387,
+    "title": "Signs",
+    "genre": "Thriller",
+    "year": 2002,
+    "rating": 6.7,
+    "director": "M. Night Shyamalan"
+  },
+  {
+    "id": 388,
+    "title": "The Village",
+    "genre": "Thriller",
+    "year": 2004,
+    "rating": 6.4,
+    "director": "M. Night Shyamalan"
+  },
+  {
+    "id": 389,
+    "title": "Basic Instinct",
+    "genre": "Thriller",
+    "year": 1992,
+    "rating": 6.6,
+    "director": "Paul Verhoeven"
+  },
+  {
+    "id": 390,
+    "title": "Wild Things",
+    "genre": "Thriller",
+    "year": 1998,
+    "rating": 6.5,
+    "director": "John McNaughton"
+  },
+  {
+    "id": 391,
+    "title": "The Talented Mr. Ripley",
+    "genre": "Thriller",
+    "year": 1999,
+    "rating": 7.4,
+    "director": "Anthony Minghella"
+  },
+  {
+    "id": 392,
+    "title": "Mystic River",
+    "genre": "Crime",
+    "year": 2003,
+    "rating": 7.9,
+    "director": "Clint Eastwood"
+  },
+  {
+    "id": 393,
+    "title": "Training Day",
+    "genre": "Crime",
+    "year": 2001,
+    "rating": 7.7,
+    "director": "Antoine Fuqua"
+  },
+  {
+    "id": 394,
+    "title": "American Made",
+    "genre": "Crime",
+    "year": 2017,
+    "rating": 7.1,
+    "director": "Doug Liman"
+  },
+  {
+    "id": 395,
+    "title": "Donnie Brasco",
+    "genre": "Crime",
+    "year": 1997,
+    "rating": 7.4,
+    "director": "Mike Newell"
+  },
+  {
+    "id": 396,
+    "title": "Carlito's Way",
+    "genre": "Crime",
+    "year": 1993,
+    "rating": 7.6,
+    "director": "Brian De Palma"
+  },
+  {
+    "id": 397,
+    "title": "Scarface",
+    "genre": "Crime",
+    "year": 1983,
+    "rating": 8.3,
+    "director": "Brian De Palma"
+  },
+  {
+    "id": 398,
+    "title": "City of God",
+    "genre": "Crime",
+    "year": 2002,
+    "rating": 8.6,
+    "director": "Fernando Meirelles"
+  },
+  {
+    "id": 399,
+    "title": "A History of Violence",
+    "genre": "Crime",
+    "year": 2005,
+    "rating": 7.4,
+    "director": "David Cronenberg"
+  },
+  {
+    "id": 400,
+    "title": "Eastern Promises",
+    "genre": "Crime",
+    "year": 2007,
+    "rating": 7.6,
+    "director": "David Cronenberg"
+  },
+  {
+    "id": 401,
+    "title": "Road to Perdition",
+    "genre": "Crime",
+    "year": 2002,
+    "rating": 7.6,
+    "director": "Sam Mendes"
+  },
+  {
+    "id": 402,
+    "title": "Layer Cake",
+    "genre": "Crime",
+    "year": 2004,
+    "rating": 7.3,
+    "director": "Matthew Vaughn"
+  },
+  {
+    "id": 403,
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "genre": "Crime",
+    "year": 1998,
+    "rating": 8.2,
+    "director": "Guy Ritchie"
+  },
+  {
+    "id": 404,
+    "title": "Snatch",
+    "genre": "Crime",
+    "year": 2000,
+    "rating": 7.8,
+    "director": "Guy Ritchie"
+  },
+  {
+    "id": 405,
+    "title": "RocknRolla",
+    "genre": "Crime",
+    "year": 2008,
+    "rating": 7.1,
+    "director": "Guy Ritchie"
+  },
+  {
+    "id": 406,
+    "title": "Kill Bill: Vol. 2",
+    "genre": "Action",
+    "year": 2004,
+    "rating": 8.0,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 407,
+    "title": "Reservoir Dogs",
+    "genre": "Crime",
+    "year": 1992,
+    "rating": 8.3,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 408,
+    "title": "Jackie Brown",
+    "genre": "Crime",
+    "year": 1997,
+    "rating": 7.5,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 409,
+    "title": "Death Proof",
+    "genre": "Action",
+    "year": 2007,
+    "rating": 7.0,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 410,
+    "title": "Once Upon a Time in Hollywood",
+    "genre": "Drama",
+    "year": 2019,
+    "rating": 7.6,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 411,
+    "title": "Django Unchained",
+    "genre": "Drama",
+    "year": 2012,
+    "rating": 8.4,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 412,
+    "title": "The Hateful Eight",
+    "genre": "Crime",
+    "year": 2015,
+    "rating": 7.8,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 413,
+    "title": "Sin City",
+    "genre": "Crime",
+    "year": 2005,
+    "rating": 8.0,
+    "director": "Frank Miller"
+  },
+  {
+    "id": 414,
+    "title": "Watchmen",
+    "genre": "Action",
+    "year": 2009,
+    "rating": 7.6,
+    "director": "Zack Snyder"
+  },
+  {
+    "id": 415,
+    "title": "V for Vendetta",
+    "genre": "Action",
+    "year": 2005,
+    "rating": 8.1,
+    "director": "James McTeigue"
+  },
+  {
+    "id": 416,
+    "title": "Equilibrium",
+    "genre": "Action",
+    "year": 2002,
+    "rating": 7.4,
+    "director": "Kurt Wimmer"
+  },
+  {
+    "id": 417,
+    "title": "The Hunger Games",
+    "genre": "Action",
+    "year": 2012,
+    "rating": 7.2,
+    "director": "Gary Ross"
+  },
+  {
+    "id": 418,
+    "title": "Divergent",
+    "genre": "Action",
+    "year": 2014,
+    "rating": 6.6,
+    "director": "Neil Burger"
+  },
+  {
+    "id": 419,
+    "title": "Maze Runner",
+    "genre": "Action",
+    "year": 2014,
+    "rating": 6.8,
+    "director": "Wes Ball"
+  },
+  {
+    "id": 420,
+    "title": "Edge of Seventeen",
+    "genre": "Comedy",
+    "year": 2016,
+    "rating": 7.3,
+    "director": "Kelly Fremon Craig"
+  },
+  {
+    "id": 421,
+    "title": "Eighth Grade",
+    "genre": "Drama",
+    "year": 2018,
+    "rating": 7.4,
+    "director": "Bo Burnham"
+  },
+  {
+    "id": 422,
+    "title": "Juno",
+    "genre": "Comedy",
+    "year": 2007,
+    "rating": 7.4,
+    "director": "Jason Reitman"
+  },
+  {
+    "id": 423,
+    "title": "Up in the Air",
+    "genre": "Drama",
+    "year": 2009,
+    "rating": 7.4,
+    "director": "Jason Reitman"
+  },
+  {
+    "id": 424,
+    "title": "Thank You for Smoking",
+    "genre": "Comedy",
+    "year": 2005,
+    "rating": 7.5,
+    "director": "Jason Reitman"
+  },
+  {
+    "id": 425,
+    "title": "Little Miss Sunshine",
+    "genre": "Comedy",
+    "year": 2006,
+    "rating": 7.8,
+    "director": "Jonathan Dayton"
+  },
+  {
+    "id": 426,
+    "title": "Sideways",
+    "genre": "Comedy",
+    "year": 2004,
+    "rating": 7.5,
+    "director": "Alexander Payne"
+  },
+  {
+    "id": 427,
+    "title": "The Descendants",
+    "genre": "Drama",
+    "year": 2011,
+    "rating": 7.3,
+    "director": "Alexander Payne"
+  },
+  {
+    "id": 428,
+    "title": "Election",
+    "genre": "Comedy",
+    "year": 1999,
+    "rating": 7.3,
+    "director": "Alexander Payne"
+  },
+  {
+    "id": 429,
+    "title": "Nebraska",
+    "genre": "Drama",
+    "year": 2013,
+    "rating": 7.7,
+    "director": "Alexander Payne"
+  },
+  {
+    "id": 430,
+    "title": "About Schmidt",
+    "genre": "Drama",
+    "year": 2002,
+    "rating": 7.2,
+    "director": "Alexander Payne"
+  },
+  {
+    "id": 431,
+    "title": "The Holdovers",
+    "genre": "Drama",
+    "year": 2023,
+    "rating": 7.9,
+    "director": "Alexander Payne"
+  },
+  {
+    "id": 432,
+    "title": "Lost in Translation",
+    "genre": "Drama",
+    "year": 2003,
+    "rating": 7.7,
+    "director": "Sofia Coppola"
+  },
+  {
+    "id": 433,
+    "title": "Marie Antoinette",
+    "genre": "Drama",
+    "year": 2006,
+    "rating": 6.4,
+    "director": "Sofia Coppola"
+  },
+  {
+    "id": 434,
+    "title": "The Virgin Suicides",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 7.1,
+    "director": "Sofia Coppola"
+  },
+  {
+    "id": 435,
+    "title": "Adaptation",
+    "genre": "Comedy",
+    "year": 2002,
+    "rating": 7.7,
+    "director": "Spike Jonze"
+  },
+  {
+    "id": 436,
+    "title": "Being John Malkovich",
+    "genre": "Comedy",
+    "year": 1999,
+    "rating": 7.7,
+    "director": "Spike Jonze"
+  },
+  {
+    "id": 437,
+    "title": "Where the Wild Things Are",
+    "genre": "Drama",
+    "year": 2009,
+    "rating": 6.4,
+    "director": "Spike Jonze"
+  },
+  {
+    "id": 438,
+    "title": "The Royal Tenenbaums",
+    "genre": "Comedy",
+    "year": 2001,
+    "rating": 7.6,
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 439,
+    "title": "Moonrise Kingdom",
+    "genre": "Comedy",
+    "year": 2012,
+    "rating": 7.8,
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 440,
+    "title": "Fantastic Mr. Fox",
+    "genre": "Animation",
+    "year": 2009,
+    "rating": 7.9,
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 441,
+    "title": "Isle of Dogs",
+    "genre": "Animation",
+    "year": 2018,
+    "rating": 7.8,
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 442,
+    "title": "Asteroid City",
+    "genre": "Comedy",
+    "year": 2023,
+    "rating": 6.6,
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 443,
+    "title": "The French Dispatch",
+    "genre": "Comedy",
+    "year": 2021,
+    "rating": 7.1,
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 444,
+    "title": "Rushmore",
+    "genre": "Comedy",
+    "year": 1998,
+    "rating": 7.7,
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 445,
+    "title": "The Favourite",
+    "genre": "Comedy",
+    "year": 2018,
+    "rating": 7.5,
+    "director": "Yorgos Lanthimos"
+  },
+  {
+    "id": 446,
+    "title": "The Lobster",
+    "genre": "Comedy",
+    "year": 2015,
+    "rating": 7.1,
+    "director": "Yorgos Lanthimos"
+  },
+  {
+    "id": 447,
+    "title": "Kinds of Kindness",
+    "genre": "Comedy",
+    "year": 2024,
+    "rating": 6.4,
+    "director": "Yorgos Lanthimos"
+  },
+  {
+    "id": 448,
+    "title": "The Killing of a Sacred Deer",
+    "genre": "Thriller",
+    "year": 2017,
+    "rating": 7.1,
+    "director": "Yorgos Lanthimos"
+  },
+  {
+    "id": 449,
+    "title": "Triangle of Sadness",
+    "genre": "Comedy",
+    "year": 2022,
+    "rating": 7.3,
+    "director": "Ruben Ostlund"
+  },
+  {
+    "id": 450,
+    "title": "Force Majeure",
+    "genre": "Drama",
+    "year": 2014,
+    "rating": 7.6,
+    "director": "Ruben Ostlund"
+  },
+  {
+    "id": 451,
+    "title": "Burning",
+    "genre": "Mystery",
+    "year": 2018,
+    "rating": 7.5,
+    "director": "Lee Chang-dong"
+  },
+  {
+    "id": 452,
+    "title": "Decision to Leave",
+    "genre": "Mystery",
+    "year": 2022,
+    "rating": 7.4,
+    "director": "Park Chan-wook"
+  },
+  {
+    "id": 453,
+    "title": "The Handmaiden",
+    "genre": "Mystery",
+    "year": 2016,
+    "rating": 8.1,
+    "director": "Park Chan-wook"
+  },
+  {
+    "id": 454,
+    "title": "Lady Vengeance",
+    "genre": "Thriller",
+    "year": 2005,
+    "rating": 7.7,
+    "director": "Park Chan-wook"
+  },
+  {
+    "id": 455,
+    "title": "Sympathy for Mr. Vengeance",
+    "genre": "Thriller",
+    "year": 2002,
+    "rating": 7.5,
+    "director": "Park Chan-wook"
+  },
+  {
+    "id": 456,
+    "title": "I Saw the Devil",
+    "genre": "Thriller",
+    "year": 2010,
+    "rating": 7.8,
+    "director": "Kim Jee-woon"
+  },
+  {
+    "id": 457,
+    "title": "A Tale of Two Sisters",
+    "genre": "Horror",
+    "year": 2003,
+    "rating": 7.2,
+    "director": "Kim Jee-woon"
+  },
+  {
+    "id": 458,
+    "title": "Memories of Murder",
+    "genre": "Crime",
+    "year": 2003,
+    "rating": 8.1,
+    "director": "Bong Joon Ho"
+  },
+  {
+    "id": 459,
+    "title": "The Host",
+    "genre": "Sci-Fi",
+    "year": 2006,
+    "rating": 7.0,
+    "director": "Bong Joon Ho"
+  },
+  {
+    "id": 460,
+    "title": "Mother (2009 film)",
+    "genre": "Mystery",
+    "year": 2009,
+    "rating": 7.9,
+    "director": "Bong Joon Ho"
+  },
+  {
+    "id": 461,
+    "title": "Okja",
+    "genre": "Drama",
+    "year": 2017,
+    "rating": 7.2,
+    "director": "Bong Joon Ho"
+  },
+  {
+    "id": 462,
+    "title": "Drive My Car",
+    "genre": "Drama",
+    "year": 2021,
+    "rating": 7.6,
+    "director": "Ryusuke Hamaguchi"
+  },
+  {
+    "id": 463,
+    "title": "Shoplifters",
+    "genre": "Drama",
+    "year": 2018,
+    "rating": 7.9,
+    "director": "Hirokazu Kore-eda"
+  },
+  {
+    "id": 464,
+    "title": "Departures",
+    "genre": "Drama",
+    "year": 2008,
+    "rating": 8.1,
+    "director": "Yojiro Takita"
+  },
+  {
+    "id": 465,
+    "title": "Tokyo Story",
+    "genre": "Drama",
+    "year": 1953,
+    "rating": 8.1,
+    "director": "Yasujiro Ozu"
+  },
+  {
+    "id": 466,
+    "title": "Seven Samurai",
+    "genre": "Action",
+    "year": 1954,
+    "rating": 8.6,
+    "director": "Akira Kurosawa"
+  },
+  {
+    "id": 467,
+    "title": "Rashomon",
+    "genre": "Mystery",
+    "year": 1950,
+    "rating": 8.2,
+    "director": "Akira Kurosawa"
+  },
+  {
+    "id": 468,
+    "title": "Yojimbo",
+    "genre": "Action",
+    "year": 1961,
+    "rating": 8.2,
+    "director": "Akira Kurosawa"
+  },
+  {
+    "id": 469,
+    "title": "Ran",
+    "genre": "War",
+    "year": 1985,
+    "rating": 8.2,
+    "director": "Akira Kurosawa"
+  },
+  {
+    "id": 470,
+    "title": "Ikiru",
+    "genre": "Drama",
+    "year": 1952,
+    "rating": 8.3,
+    "director": "Akira Kurosawa"
+  },
+  {
+    "id": 471,
+    "title": "My Neighbor Totoro",
+    "genre": "Animation",
+    "year": 1988,
+    "rating": 8.1,
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 472,
+    "title": "Howl's Moving Castle",
+    "genre": "Animation",
+    "year": 2004,
+    "rating": 8.2,
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 473,
+    "title": "Ponyo",
+    "genre": "Animation",
+    "year": 2008,
+    "rating": 7.7,
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 474,
+    "title": "Kiki's Delivery Service",
+    "genre": "Animation",
+    "year": 1989,
+    "rating": 7.8,
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 475,
+    "title": "The Boy and the Heron",
+    "genre": "Animation",
+    "year": 2023,
+    "rating": 7.5,
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 476,
+    "title": "Akira",
+    "genre": "Animation",
+    "year": 1988,
+    "rating": 8.0,
+    "director": "Katsuhiro Otomo"
+  },
+  {
+    "id": 477,
+    "title": "Ghost in the Shell",
+    "genre": "Animation",
+    "year": 1995,
+    "rating": 7.9,
+    "director": "Mamoru Oshii"
+  },
+  {
+    "id": 478,
+    "title": "Your Name",
+    "genre": "Animation",
+    "year": 2016,
+    "rating": 8.4,
+    "director": "Makoto Shinkai"
+  },
+  {
+    "id": 479,
+    "title": "Weathering With You",
+    "genre": "Animation",
+    "year": 2019,
+    "rating": 7.5,
+    "director": "Makoto Shinkai"
+  },
+  {
+    "id": 480,
+    "title": "Grave of the Fireflies",
+    "genre": "Animation",
+    "year": 1988,
+    "rating": 8.5,
+    "director": "Isao Takahata"
+  },
+  {
+    "id": 481,
+    "title": "A Silent Voice",
+    "genre": "Animation",
+    "year": 2016,
+    "rating": 8.1,
+    "director": "Naoko Yamada"
+  },
+  {
+    "id": 482,
+    "title": "Perfect Blue",
+    "genre": "Thriller",
+    "year": 1997,
+    "rating": 8.0,
+    "director": "Satoshi Kon"
+  },
+  {
+    "id": 483,
+    "title": "Paprika",
+    "genre": "Animation",
+    "year": 2006,
+    "rating": 7.7,
+    "director": "Satoshi Kon"
+  },
+  {
+    "id": 484,
+    "title": "The Lego Movie",
+    "genre": "Animation",
+    "year": 2014,
+    "rating": 7.7,
+    "director": "Phil Lord"
+  },
+  {
+    "id": 485,
+    "title": "Despicable Me",
+    "genre": "Animation",
+    "year": 2010,
+    "rating": 7.6,
+    "director": "Pierre Coffin"
+  },
+  {
+    "id": 486,
+    "title": "Minions",
+    "genre": "Animation",
+    "year": 2015,
+    "rating": 6.4,
+    "director": "Pierre Coffin"
+  },
+  {
+    "id": 487,
+    "title": "Madagascar",
+    "genre": "Animation",
+    "year": 2005,
+    "rating": 6.9,
+    "director": "Eric Darnell"
+  },
+  {
+    "id": 488,
+    "title": "Kung Fu Panda",
+    "genre": "Animation",
+    "year": 2008,
+    "rating": 7.6,
+    "director": "Mark Osborne"
+  },
+  {
+    "id": 489,
+    "title": "Megamind",
+    "genre": "Animation",
+    "year": 2010,
+    "rating": 7.3,
+    "director": "Tom McGrath"
+  },
+  {
+    "id": 490,
+    "title": "The Incredibles",
+    "genre": "Animation",
+    "year": 2004,
+    "rating": 8.0,
+    "director": "Brad Bird"
+  },
+  {
+    "id": 491,
+    "title": "Incredibles 2",
+    "genre": "Animation",
+    "year": 2018,
+    "rating": 7.6,
+    "director": "Brad Bird"
+  },
+  {
+    "id": 492,
+    "title": "Cars",
+    "genre": "Animation",
+    "year": 2006,
+    "rating": 7.2,
+    "director": "John Lasseter"
+  },
+  {
+    "id": 493,
+    "title": "Monsters, Inc.",
+    "genre": "Animation",
+    "year": 2001,
+    "rating": 8.1,
+    "director": "Pete Docter"
+  },
+  {
+    "id": 494,
+    "title": "A Bug's Life",
+    "genre": "Animation",
+    "year": 1998,
+    "rating": 7.2,
+    "director": "John Lasseter"
+  },
+  {
+    "id": 495,
+    "title": "Brave",
+    "genre": "Animation",
+    "year": 2012,
+    "rating": 7.1,
+    "director": "Mark Andrews"
+  },
+  {
+    "id": 496,
+    "title": "Onward",
+    "genre": "Animation",
+    "year": 2020,
+    "rating": 7.4,
+    "director": "Dan Scanlon"
+  },
+  {
+    "id": 497,
+    "title": "Luca",
+    "genre": "Animation",
+    "year": 2021,
+    "rating": 7.3,
+    "director": "Enrico Casarosa"
+  },
+  {
+    "id": 498,
+    "title": "Turning Red",
+    "genre": "Animation",
+    "year": 2022,
+    "rating": 6.9,
+    "director": "Domee Shi"
+  },
+  {
+    "id": 499,
+    "title": "Elemental",
+    "genre": "Animation",
+    "year": 2023,
+    "rating": 6.9,
+    "director": "Peter Sohn"
+  },
+  {
+    "id": 500,
+    "title": "Wish",
+    "genre": "Animation",
+    "year": 2023,
+    "rating": 6.1,
+    "director": "Chris Buck"
+  },
+  {
+    "id": 501,
+    "title": "Moana",
+    "genre": "Animation",
+    "year": 2016,
+    "rating": 7.6,
+    "director": "Ron Clements"
+  },
+  {
+    "id": 502,
+    "title": "Frozen",
+    "genre": "Animation",
+    "year": 2013,
+    "rating": 7.4,
+    "director": "Chris Buck"
+  },
+  {
+    "id": 503,
+    "title": "Tangled",
+    "genre": "Animation",
+    "year": 2010,
+    "rating": 7.7,
+    "director": "Nathan Greno"
+  },
+  {
+    "id": 504,
+    "title": "Aladdin",
+    "genre": "Animation",
+    "year": 1992,
+    "rating": 8.0,
+    "director": "Ron Clements"
+  },
+  {
+    "id": 505,
+    "title": "Beauty and the Beast",
+    "genre": "Animation",
+    "year": 1991,
+    "rating": 8.0,
+    "director": "Gary Trousdale"
+  },
+  {
+    "id": 506,
+    "title": "The Little Mermaid",
+    "genre": "Animation",
+    "year": 1989,
+    "rating": 7.6,
+    "director": "Ron Clements"
+  },
+  {
+    "id": 507,
+    "title": "Mulan",
+    "genre": "Animation",
+    "year": 1998,
+    "rating": 7.6,
+    "director": "Tony Bancroft"
+  },
+  {
+    "id": 508,
+    "title": "Pocahontas",
+    "genre": "Animation",
+    "year": 1995,
+    "rating": 6.6,
+    "director": "Mike Gabriel"
+  },
+  {
+    "id": 509,
+    "title": "Hercules",
+    "genre": "Animation",
+    "year": 1997,
+    "rating": 7.3,
+    "director": "Ron Clements"
+  },
+  {
+    "id": 510,
+    "title": "Tarzan",
+    "genre": "Animation",
+    "year": 1999,
+    "rating": 7.3,
+    "director": "Chris Buck"
+  },
+  {
+    "id": 511,
+    "title": "Lilo & Stitch",
+    "genre": "Animation",
+    "year": 2002,
+    "rating": 7.3,
+    "director": "Dean DeBlois"
+  },
+  {
+    "id": 512,
+    "title": "Treasure Planet",
+    "genre": "Animation",
+    "year": 2002,
+    "rating": 7.1,
+    "director": "Ron Clements"
+  },
+  {
+    "id": 513,
+    "title": "Atlantis: The Lost Empire",
+    "genre": "Animation",
+    "year": 2001,
+    "rating": 6.9,
+    "director": "Gary Trousdale"
+  },
+  {
+    "id": 514,
+    "title": "The Hunchback of Notre Dame",
+    "genre": "Animation",
+    "year": 1996,
+    "rating": 7.4,
+    "director": "Gary Trousdale"
+  },
+  {
+    "id": 515,
+    "title": "Citizen Kane",
+    "genre": "Drama",
+    "year": 1941,
+    "rating": 8.3,
+    "director": "Orson Welles"
+  },
+  {
+    "id": 516,
+    "title": "Gone with the Wind",
+    "genre": "Romance",
+    "year": 1939,
+    "rating": 8.2,
+    "director": "Victor Fleming"
+  },
+  {
+    "id": 517,
+    "title": "Lawrence of Arabia",
+    "genre": "War",
+    "year": 1962,
+    "rating": 8.3,
+    "director": "David Lean"
+  },
+  {
+    "id": 518,
+    "title": "The Bridge on the River Kwai",
+    "genre": "War",
+    "year": 1957,
+    "rating": 8.1,
+    "director": "David Lean"
+  },
+  {
+    "id": 519,
+    "title": "Doctor Zhivago",
+    "genre": "Romance",
+    "year": 1965,
+    "rating": 7.9,
+    "director": "David Lean"
+  },
+  {
+    "id": 520,
+    "title": "Ben-Hur",
+    "genre": "Drama",
+    "year": 1959,
+    "rating": 8.1,
+    "director": "William Wyler"
+  },
+  {
+    "id": 521,
+    "title": "Spartacus",
+    "genre": "War",
+    "year": 1960,
+    "rating": 7.9,
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 522,
+    "title": "A Clockwork Orange",
+    "genre": "Crime",
+    "year": 1971,
+    "rating": 8.3,
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 523,
+    "title": "Barry Lyndon",
+    "genre": "Drama",
+    "year": 1975,
+    "rating": 8.1,
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 524,
+    "title": "Eyes Wide Shut",
+    "genre": "Mystery",
+    "year": 1999,
+    "rating": 7.5,
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 525,
+    "title": "The Shining",
+    "genre": "Horror",
+    "year": 1980,
+    "rating": 8.4,
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 526,
+    "title": "Jaws",
+    "genre": "Thriller",
+    "year": 1975,
+    "rating": 8.1,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 527,
+    "title": "Raiders of the Lost Ark",
+    "genre": "Action",
+    "year": 1981,
+    "rating": 8.4,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 528,
+    "title": "Indiana Jones and the Last Crusade",
+    "genre": "Action",
+    "year": 1989,
+    "rating": 8.2,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 529,
+    "title": "Jurassic Park: The Lost World",
+    "genre": "Sci-Fi",
+    "year": 1997,
+    "rating": 6.5,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 530,
+    "title": "Munich",
+    "genre": "Thriller",
+    "year": 2005,
+    "rating": 7.6,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 531,
+    "title": "Bridge of Spies",
+    "genre": "Drama",
+    "year": 2015,
+    "rating": 7.6,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 532,
+    "title": "The Post",
+    "genre": "Drama",
+    "year": 2017,
+    "rating": 7.2,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 533,
+    "title": "Ready Player One",
+    "genre": "Sci-Fi",
+    "year": 2018,
+    "rating": 7.4,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 534,
+    "title": "The Fabelmans",
+    "genre": "Drama",
+    "year": 2022,
+    "rating": 7.5,
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 535,
+    "title": "My Fair Lady",
+    "genre": "Musical",
+    "year": 1964,
+    "rating": 7.8,
+    "director": "George Cukor"
+  },
+  {
+    "id": 536,
+    "title": "Cabaret",
+    "genre": "Musical",
+    "year": 1972,
+    "rating": 7.7,
+    "director": "Bob Fosse"
+  },
+  {
+    "id": 537,
+    "title": "All That Jazz",
+    "genre": "Musical",
+    "year": 1979,
+    "rating": 7.8,
+    "director": "Bob Fosse"
+  },
+  {
+    "id": 538,
+    "title": "Hairspray",
+    "genre": "Musical",
+    "year": 2007,
+    "rating": 6.7,
+    "director": "Adam Shankman"
+  },
+  {
+    "id": 539,
+    "title": "Rent",
+    "genre": "Musical",
+    "year": 2005,
+    "rating": 6.2,
+    "director": "Chris Columbus"
+  },
+  {
+    "id": 540,
+    "title": "Once",
+    "genre": "Musical",
+    "year": 2007,
+    "rating": 7.8,
+    "director": "John Carney"
+  },
+  {
+    "id": 541,
+    "title": "Begin Again",
+    "genre": "Musical",
+    "year": 2013,
+    "rating": 7.2,
+    "director": "John Carney"
+  },
+  {
+    "id": 542,
+    "title": "Sing Street",
+    "genre": "Musical",
+    "year": 2016,
+    "rating": 7.9,
+    "director": "John Carney"
+  },
+  {
+    "id": 543,
+    "title": "Bohemian Rhapsody",
+    "genre": "Musical",
+    "year": 2018,
+    "rating": 7.9,
+    "director": "Bryan Singer"
+  },
+  {
+    "id": 544,
+    "title": "Rocketman",
+    "genre": "Musical",
+    "year": 2019,
+    "rating": 7.3,
+    "director": "Dexter Fletcher"
+  },
+  {
+    "id": 545,
+    "title": "Elvis",
+    "genre": "Musical",
+    "year": 2022,
+    "rating": 7.3,
+    "director": "Baz Luhrmann"
+  },
+  {
+    "id": 546,
+    "title": "Walk the Line",
+    "genre": "Musical",
+    "year": 2005,
+    "rating": 7.8,
+    "director": "James Mangold"
+  },
+  {
+    "id": 547,
+    "title": "Ray",
+    "genre": "Musical",
+    "year": 2004,
+    "rating": 7.7,
+    "director": "Taylor Hackford"
+  },
+  {
+    "id": 548,
+    "title": "Amadeus",
+    "genre": "Musical",
+    "year": 1984,
+    "rating": 8.4,
+    "director": "Milos Forman"
+  },
+  {
+    "id": 549,
+    "title": "Pitch Perfect",
+    "genre": "Musical",
+    "year": 2012,
+    "rating": 7.1,
+    "director": "Jason Moore"
+  },
+  {
+    "id": 550,
+    "title": "Encanto",
+    "genre": "Musical",
+    "year": 2021,
+    "rating": 7.2,
+    "director": "Jared Bush"
+  },
+  {
+    "id": 551,
+    "title": "Tick, Tick... Boom!",
+    "genre": "Musical",
+    "year": 2021,
+    "rating": 7.3,
+    "director": "Lin-Manuel Miranda"
+  },
+  {
+    "id": 552,
+    "title": "In the Heights",
+    "genre": "Musical",
+    "year": 2021,
+    "rating": 7.3,
+    "director": "Jon M. Chu"
+  },
+  {
+    "id": 553,
+    "title": "Always Be My Maybe",
+    "genre": "Romance",
+    "year": 2019,
+    "rating": 6.7,
+    "director": "Nahnatchka Khan"
+  },
+  {
+    "id": 554,
+    "title": "To All the Boys I've Loved Before",
+    "genre": "Romance",
+    "year": 2018,
+    "rating": 7.1,
+    "director": "Susan Johnson"
+  },
+  {
+    "id": 555,
+    "title": "Palm Springs",
+    "genre": "Comedy",
+    "year": 2020,
+    "rating": 7.4,
+    "director": "Max Barbakow"
+  },
+  {
+    "id": 556,
+    "title": "Free Guy",
+    "genre": "Action",
+    "year": 2021,
+    "rating": 7.1,
+    "director": "Shawn Levy"
+  },
+  {
+    "id": 557,
+    "title": "Ralph Breaks the Internet",
+    "genre": "Animation",
+    "year": 2018,
+    "rating": 7.0,
+    "director": "Rich Moore"
+  },
+  {
+    "id": 558,
+    "title": "Wreck-It Ralph",
+    "genre": "Animation",
+    "year": 2012,
+    "rating": 7.7,
+    "director": "Rich Moore"
+  },
+  {
+    "id": 559,
+    "title": "The Mitchells vs. the Machines",
+    "genre": "Animation",
+    "year": 2021,
+    "rating": 7.6,
+    "director": "Mike Rianda"
+  },
+  {
+    "id": 560,
+    "title": "Puss in Boots: The Last Wish",
+    "genre": "Animation",
+    "year": 2022,
+    "rating": 7.8,
+    "director": "Joel Crawford"
+  },
+  {
+    "id": 561,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "genre": "Animation",
+    "year": 2023,
+    "rating": 8.6,
+    "director": "Joaquim Dos Santos"
+  },
+  {
+    "id": 562,
+    "title": "Flow",
+    "genre": "Animation",
+    "year": 2024,
+    "rating": 7.8,
+    "director": "Gints Zilbalodis"
+  },
+  {
+    "id": 563,
+    "title": "The Wild Robot",
+    "genre": "Animation",
+    "year": 2024,
+    "rating": 8.1,
+    "director": "Chris Sanders"
+  },
+  {
+    "id": 564,
+    "title": "Inside Out 2",
+    "genre": "Animation",
+    "year": 2024,
+    "rating": 7.6,
+    "director": "Kelsey Mann"
+  },
+  {
+    "id": 565,
+    "title": "Sound of Freedom",
+    "genre": "Drama",
+    "year": 2023,
+    "rating": 7.5,
+    "director": "Alejandro Monteverde"
+  },
+  {
+    "id": 566,
+    "title": "Conclave",
+    "genre": "Mystery",
+    "year": 2024,
+    "rating": 7.4,
+    "director": "Edward Berger"
+  },
+  {
+    "id": 567,
+    "title": "Wicked Part Two",
+    "genre": "Musical",
+    "year": 2025,
+    "rating": 7.0,
+    "director": "Jon M. Chu"
+  },
+  {
+    "id": 568,
+    "title": "A Complete Unknown",
+    "genre": "Musical",
+    "year": 2024,
+    "rating": 7.3,
+    "director": "James Mangold"
+  },
+  {
+    "id": 569,
+    "title": "The Brutalist",
+    "genre": "Drama",
+    "year": 2024,
+    "rating": 7.6,
+    "director": "Brady Corbet"
+  },
+  {
+    "id": 570,
+    "title": "Civil War",
+    "genre": "War",
+    "year": 2024,
+    "rating": 7.0,
+    "director": "Alex Garland"
+  },
+  {
+    "id": 571,
+    "title": "Furiosa: A Mad Max Saga",
+    "genre": "Action",
+    "year": 2024,
+    "rating": 7.5,
+    "director": "George Miller"
+  },
+  {
+    "id": 572,
+    "title": "Deadpool & Wolverine",
+    "genre": "Action",
+    "year": 2024,
+    "rating": 7.6,
+    "director": "Shawn Levy"
+  },
+  {
+    "id": 573,
+    "title": "Twisters",
+    "genre": "Action",
+    "year": 2024,
+    "rating": 6.5,
+    "director": "Lee Isaac Chung"
+  },
+  {
+    "id": 574,
+    "title": "A Quiet Place: Day One",
+    "genre": "Horror",
+    "year": 2024,
+    "rating": 6.6,
+    "director": "Michael Sarnoski"
+  },
+  {
+    "id": 575,
+    "title": "Alien: Romulus",
+    "genre": "Sci-Fi",
+    "year": 2024,
+    "rating": 7.1,
+    "director": "Fede Alvarez"
+  },
+  {
+    "id": 576,
+    "title": "Beetlejuice Beetlejuice",
+    "genre": "Comedy",
+    "year": 2024,
+    "rating": 6.6,
+    "director": "Tim Burton"
+  },
+  {
+    "id": 577,
+    "title": "Gladiator II",
+    "genre": "Action",
+    "year": 2024,
+    "rating": 6.5,
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 578,
+    "title": "Nosferatu",
+    "genre": "Horror",
+    "year": 2024,
+    "rating": 7.3,
+    "director": "Robert Eggers"
+  },
+  {
+    "id": 579,
+    "title": "The Northman",
+    "genre": "Action",
+    "year": 2022,
+    "rating": 7.0,
+    "director": "Robert Eggers"
+  },
+  {
+    "id": 580,
+    "title": "The Lighthouse",
+    "genre": "Horror",
+    "year": 2019,
+    "rating": 7.4,
+    "director": "Robert Eggers"
+  },
+  {
+    "id": 581,
+    "title": "Edward Scissorhands",
+    "genre": "Romance",
+    "year": 1990,
+    "rating": 7.9,
+    "director": "Tim Burton"
+  },
+  {
+    "id": 582,
+    "title": "Beetlejuice",
+    "genre": "Comedy",
+    "year": 1988,
+    "rating": 7.5,
+    "director": "Tim Burton"
+  },
+  {
+    "id": 583,
+    "title": "The Nightmare Before Christmas",
+    "genre": "Animation",
+    "year": 1993,
+    "rating": 8.0,
+    "director": "Henry Selick"
+  },
+  {
+    "id": 584,
+    "title": "Corpse Bride",
+    "genre": "Animation",
+    "year": 2005,
+    "rating": 7.3,
+    "director": "Tim Burton"
+  },
+  {
+    "id": 585,
+    "title": "Sweeney Todd",
+    "genre": "Musical",
+    "year": 2007,
+    "rating": 7.3,
+    "director": "Tim Burton"
+  },
+  {
+    "id": 586,
+    "title": "Sleepy Hollow",
+    "genre": "Horror",
+    "year": 1999,
+    "rating": 7.3,
+    "director": "Tim Burton"
+  },
+  {
+    "id": 587,
+    "title": "Batman",
+    "genre": "Action",
+    "year": 1989,
+    "rating": 7.5,
+    "director": "Tim Burton"
+  },
+  {
+    "id": 588,
+    "title": "Batman Returns",
+    "genre": "Action",
+    "year": 1992,
+    "rating": 7.1,
+    "director": "Tim Burton"
+  },
+  {
+    "id": 589,
+    "title": "Batman Begins",
+    "genre": "Action",
+    "year": 2005,
+    "rating": 8.2,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 590,
+    "title": "The Dark Knight Rises",
+    "genre": "Action",
+    "year": 2012,
+    "rating": 8.4,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 591,
+    "title": "Insomnia",
+    "genre": "Thriller",
+    "year": 2002,
+    "rating": 7.2,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 592,
+    "title": "The Prestige",
+    "genre": "Mystery",
+    "year": 2006,
+    "rating": 8.5,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 593,
+    "title": "Following",
+    "genre": "Thriller",
+    "year": 1998,
+    "rating": 7.5,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 594,
+    "title": "The Holiday",
+    "genre": "Romance",
+    "year": 2006,
+    "rating": 6.9,
+    "director": "Nancy Meyers"
+  },
+  {
+    "id": 595,
+    "title": "It's Complicated",
+    "genre": "Romance",
+    "year": 2009,
+    "rating": 6.6,
+    "director": "Nancy Meyers"
+  },
+  {
+    "id": 596,
+    "title": "Something's Gotta Give",
+    "genre": "Romance",
+    "year": 2003,
+    "rating": 6.7,
+    "director": "Nancy Meyers"
+  },
+  {
+    "id": 597,
+    "title": "The Parent Trap",
+    "genre": "Comedy",
+    "year": 1998,
+    "rating": 6.1,
+    "director": "Nancy Meyers"
+  },
+  {
+    "id": 598,
+    "title": "Father of the Bride",
+    "genre": "Comedy",
+    "year": 1991,
+    "rating": 6.9,
+    "director": "Charles Shyer"
+  },
+  {
+    "id": 599,
+    "title": "What Women Want",
+    "genre": "Romance",
+    "year": 2000,
+    "rating": 6.4,
+    "director": "Nancy Meyers"
+  },
+  {
+    "id": 600,
+    "title": "27 Dresses",
+    "genre": "Romance",
+    "year": 2008,
+    "rating": 6.2,
+    "director": "Anne Fletcher"
+  },
+  {
+    "id": 601,
+    "title": "How to Lose a Guy in 10 Days",
+    "genre": "Romance",
+    "year": 2003,
+    "rating": 6.3,
+    "director": "Donald Petrie"
+  },
+  {
+    "id": 602,
+    "title": "The Proposal",
+    "genre": "Romance",
+    "year": 2009,
+    "rating": 6.6,
+    "director": "Anne Fletcher"
+  },
+  {
+    "id": 603,
+    "title": "Just Go with It",
+    "genre": "Romance",
+    "year": 2011,
+    "rating": 6.4,
+    "director": "Dennis Dugan"
+  },
+  {
+    "id": 604,
+    "title": "50 First Dates",
+    "genre": "Romance",
+    "year": 2004,
+    "rating": 6.8,
+    "director": "Peter Segal"
+  },
+  {
+    "id": 605,
+    "title": "The Wedding Singer",
+    "genre": "Romance",
+    "year": 1998,
+    "rating": 6.8,
+    "director": "Frank Coraci"
+  },
+  {
+    "id": 606,
+    "title": "Click",
+    "genre": "Comedy",
+    "year": 2006,
+    "rating": 6.4,
+    "director": "Frank Coraci"
+  },
+  {
+    "id": 607,
+    "title": "Happy Gilmore",
+    "genre": "Comedy",
+    "year": 1996,
+    "rating": 7.0,
+    "director": "Dennis Dugan"
+  },
+  {
+    "id": 608,
+    "title": "Billy Madison",
+    "genre": "Comedy",
+    "year": 1995,
+    "rating": 6.3,
+    "director": "Tamra Davis"
+  },
+  {
+    "id": 609,
+    "title": "The Waterboy",
+    "genre": "Comedy",
+    "year": 1998,
+    "rating": 6.1,
+    "director": "Frank Coraci"
+  },
+  {
+    "id": 610,
+    "title": "Big Daddy",
+    "genre": "Comedy",
+    "year": 1999,
+    "rating": 6.4,
+    "director": "Dennis Dugan"
+  },
+  {
+    "id": 611,
+    "title": "Uncut Gems",
+    "genre": "Thriller",
+    "year": 2019,
+    "rating": 7.4,
+    "director": "Benny Safdie"
+  },
+  {
+    "id": 612,
+    "title": "Good Time",
+    "genre": "Thriller",
+    "year": 2017,
+    "rating": 7.3,
+    "director": "Benny Safdie"
+  },
+  {
+    "id": 613,
+    "title": "Punch-Drunk Love",
+    "genre": "Romance",
+    "year": 2002,
+    "rating": 7.3,
+    "director": "Paul Thomas Anderson"
+  },
+  {
+    "id": 614,
+    "title": "Hard Eight",
+    "genre": "Crime",
+    "year": 1996,
+    "rating": 7.2,
+    "director": "Paul Thomas Anderson"
+  },
+  {
+    "id": 615,
+    "title": "Licorice Pizza",
+    "genre": "Comedy",
+    "year": 2021,
+    "rating": 7.2,
+    "director": "Paul Thomas Anderson"
+  },
+  {
+    "id": 616,
+    "title": "One Battle After Another",
+    "genre": "Action",
+    "year": 2025,
+    "rating": 7.8,
+    "director": "Paul Thomas Anderson"
+  },
+  {
+    "id": 617,
+    "title": "It Happened One Night",
+    "genre": "Comedy",
+    "year": 1934,
+    "rating": 8.1,
+    "director": "Frank Capra"
+  },
+  {
+    "id": 618,
+    "title": "It's a Wonderful Life",
+    "genre": "Drama",
+    "year": 1946,
+    "rating": 8.6,
+    "director": "Frank Capra"
+  },
+  {
+    "id": 619,
+    "title": "Mr. Smith Goes to Washington",
+    "genre": "Drama",
+    "year": 1939,
+    "rating": 8.1,
+    "director": "Frank Capra"
+  },
+  {
+    "id": 620,
+    "title": "Sunset Boulevard",
+    "genre": "Drama",
+    "year": 1950,
+    "rating": 8.4,
+    "director": "Billy Wilder"
+  },
+  {
+    "id": 621,
+    "title": "Double Indemnity",
+    "genre": "Crime",
+    "year": 1944,
+    "rating": 8.3,
+    "director": "Billy Wilder"
+  },
+  {
+    "id": 622,
+    "title": "The Apartment",
+    "genre": "Comedy",
+    "year": 1960,
+    "rating": 8.3,
+    "director": "Billy Wilder"
+  },
+  {
+    "id": 623,
+    "title": "Witness for the Prosecution",
+    "genre": "Mystery",
+    "year": 1957,
+    "rating": 8.4,
+    "director": "Billy Wilder"
+  },
+  {
+    "id": 624,
+    "title": "North by Northwest",
+    "genre": "Thriller",
+    "year": 1959,
+    "rating": 8.3,
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 625,
+    "title": "Psycho",
+    "genre": "Horror",
+    "year": 1960,
+    "rating": 8.5,
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 626,
+    "title": "Strangers on a Train",
+    "genre": "Thriller",
+    "year": 1951,
+    "rating": 8.1,
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 627,
+    "title": "Dial M for Murder",
+    "genre": "Mystery",
+    "year": 1954,
+    "rating": 8.2,
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 628,
+    "title": "The Birds",
+    "genre": "Horror",
+    "year": 1963,
+    "rating": 7.7,
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 629,
+    "title": "Rope",
+    "genre": "Mystery",
+    "year": 1948,
+    "rating": 8.0,
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 630,
+    "title": "Notorious",
+    "genre": "Thriller",
+    "year": 1946,
+    "rating": 8.0,
+    "director": "Alfred Hitchcock"
+  }
 ]

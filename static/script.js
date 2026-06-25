@@ -3,8 +3,6 @@
 // Talks to the Flask API: /api/genres, /api/recommend, /api/favorites
 // ============================================
 
-const genreSelect = document.getElementById("genre-select");
-const decadeSelect = document.getElementById("decade-select");
 const ratingSlider = document.getElementById("rating-slider");
 const ratingValue = document.getElementById("rating-value");
 const recommendBtn = document.getElementById("recommend-btn");
@@ -18,6 +16,87 @@ const tabButtons = document.querySelectorAll(".tab-btn");
 const views = document.querySelectorAll(".view");
 
 let favoriteIds = new Set();
+let selectedGenre = "Any";
+let selectedDecade = "Any";
+
+// ---------- Custom dropdown controller ----------
+function setupCustomSelect({ wrapperId, triggerId, panelId, onChange }) {
+  const wrapper = document.getElementById(wrapperId);
+  const trigger = document.getElementById(triggerId);
+  const panel = document.getElementById(panelId);
+  const valueLabel = trigger.querySelector(".custom-select-value");
+
+  function close() {
+    wrapper.classList.remove("open");
+    trigger.setAttribute("aria-expanded", "false");
+  }
+
+  function open() {
+    document.querySelectorAll(".custom-select.open").forEach((el) => {
+      if (el !== wrapper) el.classList.remove("open");
+    });
+    wrapper.classList.add("open");
+    trigger.setAttribute("aria-expanded", "true");
+  }
+
+  trigger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    wrapper.classList.contains("open") ? close() : open();
+  });
+
+  panel.addEventListener("click", (e) => {
+    const option = e.target.closest(".custom-select-option");
+    if (!option) return;
+
+    panel.querySelectorAll(".custom-select-option").forEach((opt) => {
+      opt.classList.remove("selected");
+      opt.setAttribute("aria-selected", "false");
+    });
+    option.classList.add("selected");
+    option.setAttribute("aria-selected", "true");
+    valueLabel.textContent = option.textContent;
+
+    close();
+    onChange(option.dataset.value);
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!wrapper.contains(e.target)) close();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") close();
+  });
+
+  return {
+    setOptions(items) {
+      panel.innerHTML = "";
+      items.forEach(({ value, label, selected }) => {
+        const li = document.createElement("li");
+        li.className = "custom-select-option" + (selected ? " selected" : "");
+        li.dataset.value = value;
+        li.setAttribute("role", "option");
+        li.setAttribute("aria-selected", selected ? "true" : "false");
+        li.textContent = label;
+        panel.appendChild(li);
+      });
+    },
+  };
+}
+
+const genreDropdown = setupCustomSelect({
+  wrapperId: "genre-custom-select",
+  triggerId: "genre-trigger",
+  panelId: "genre-panel",
+  onChange: (value) => { selectedGenre = value; },
+});
+
+const decadeDropdown = setupCustomSelect({
+  wrapperId: "decade-custom-select",
+  triggerId: "decade-trigger",
+  panelId: "decade-panel",
+  onChange: (value) => { selectedDecade = value; },
+});
 
 // ---------- Tab switching ----------
 tabButtons.forEach((btn) => {
@@ -42,12 +121,10 @@ async function loadGenres() {
   try {
     const res = await fetch("/api/genres");
     const genres = await res.json();
-    genres.forEach((g) => {
-      const opt = document.createElement("option");
-      opt.value = g;
-      opt.textContent = g;
-      genreSelect.appendChild(opt);
-    });
+    const items = [{ value: "Any", label: "Any genre", selected: true }].concat(
+      genres.map((g) => ({ value: g, label: g, selected: false }))
+    );
+    genreDropdown.setOptions(items);
   } catch (err) {
     console.error("Failed to load genres:", err);
   }
@@ -93,9 +170,9 @@ function buildStub(movie, options = {}) {
 // ---------- Fetch recommendations ----------
 async function getRecommendations() {
   const preferences = {
-    genre: genreSelect.value,
+    genre: selectedGenre,
     min_rating: parseFloat(ratingSlider.value),
-    decade: decadeSelect.value,
+    decade: selectedDecade,
   };
 
   recommendBtn.disabled = true;
